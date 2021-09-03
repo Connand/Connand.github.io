@@ -2908,6 +2908,29 @@ blockquote footer cite:before {
   width: 20%;
   text-align: right;
 }
+#aside-content .card-announcement .announcement-button,
+#aside-content .card-announcement .social-button {
+  margin: 0.6rem 0 0 0;
+  text-align: center;
+}
+#aside-content .card-announcement .announcement-button a,
+#aside-content .card-announcement .social-button a {
+  display: block;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  line-height: 1.6rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 1;
+}
+#aside-content .card-announcement .announcement-button a:first-child,
+#aside-content .card-announcement .social-button a:first-child {
+  margin-bottom: 0.4rem;
+}
 #aside-content .card-categories .card-category-list.child {
   padding: 0 0 0 0.8rem;
 }
