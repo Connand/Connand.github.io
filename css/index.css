@@ -2933,9 +2933,6 @@ blockquote footer cite:before {
   transition: all 0.3s;
   position: relative;
   z-index: 1;
-}
-#aside-content .card-announcement .announcement-button a:first-child,
-#aside-content .card-announcement .social-button a:first-child {
   margin-bottom: 0.4rem;
 }
 #aside-content .card-categories .card-category-list.child {
