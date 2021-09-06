@@ -2,7 +2,7 @@ let date = new Date(); //get current date
 
 let day = date.getDay(); // getDay returns 0 to 6; 0 = sun, 1 = mon and so on.
 let hour= date.getHours(); // gethhours returns the hour (0-23)
-let result = "今天（台版）開放副本：<br>";
+let result = "";
 
 if(day == 0) {
     result += "暴食王12人<br>";
