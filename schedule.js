@@ -9,7 +9,7 @@ let dungeons =
     {
         name: "蒼蠅王12人",
         html: "蒼蠅王12人<br>",
-        days: [2, 6]
+        days: [2, 4, 6]
     },
     {
         name: "暴食王12人",
@@ -41,7 +41,6 @@ let dungeons =
         html: "深海王阿斯莫德<br>",
         days: [0, 4, 6]
     },
-    
 ];
 
 dungeons.forEach((e, i) => {
