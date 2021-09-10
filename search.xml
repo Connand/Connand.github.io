@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>玩家座談會紀錄翻譯(慢速製作)</title>
+      <link href="/datasets/usermeetTrans/"/>
+      <url>/datasets/usermeetTrans/</url>
+      
+        <content type="html"><![CDATA[<a class="btn-beautify button--animated outline red larger" href="https://closers.nexon.com/Events2021/0701/usermeet"   title="官網原文"><i class="far fa-hand-point-right"></i><span>官網原文</span></a><style>    div.question {        color: #ef674d;        font-size: 17px;        font-weight: bold;        margin-top: 20px;    }    table th:nth-of-type(1){        width: 8%;    }    table th:nth-of-type(2){        width: 10%;    }    table th:nth-of-type(3){        width: 62%;    }    table th:nth-of-type(4){        width: 12%;    }    table th:nth-of-type(5){        width: 8%;    }</style><div class="tabs" id="類型"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#類型-1">座談會現場建議</button></li><li class="tab"><button type="button" data-href="#類型-2">補充建議</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="類型-1"><table><thead><tr><th align="center">序號</th><th align="center">分類</th><th align="left">Q&amp;A</th><th align="center">預計時間</th><th align="center">結果</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">REMASTER<br><strong>重製計畫</strong></td><td align="left"><div class="question">為什麼不馬上宣布停止重製計畫？</div><hr></hr>開發團隊認為remastering不僅僅是更換引擎，更重要的是提升整體畫質，引擎重構也即將上線。因此，作為開發團隊，我們認為remaster仍在進行中，我們決定最好在發布好結果之前不要另行通知。很抱歉我們沒有提前向關閉者解釋這些細節。</td><td align="center">-</td><td align="center">-</td></tr><tr><td align="center">2</td><td align="center">REMASTER</td><td align="left"><div class="question">重製版是一個真正的項目嗎？</div><hr></hr>這實際上是一個正在進行的項目。但是，由於Nadic Games內部的歷史管理流程不足，目前沒有任何作品可以展示。我們很抱歉不得不處理我們之前正在進行的工作。</td><td align="center">-</td><td align="center">-</td></tr><tr><td align="center">3</td><td align="center">REMASTER</td><td align="left"><div class="question">你們宣布了 2021 年將取代 remaster 的著色工作。 remaster 和建模/著色改進之間有什麼區別？</div><hr></hr>最初向 Closers 公開的 remaster 旨在替換商業引擎，並為此進行開發和研發。然而，實際上，我們決定不能再繼續了，所以我們轉向了引擎重構，其中一項任務就是改進著色。引擎重構可以看作是提高引擎的技術極限。</td><td align="center">-</td><td align="center">-</td></tr><tr><td align="center">4</td><td align="center">REMASTER</td><td align="left"><div class="question">4月以來就沒有關於建模/著色改進的指導，您能否提供開發進度的指導？</div><hr></hr>Seha Lee / Seulbi 面部建模改進於 7 月 15 日應用。由於最好分批進行所有字符著色器改進，我們的目標是在 12 月內完成它們。</td><td align="center">-</td><td align="center">-</td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="類型-2"><p>456</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 遊戲資料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 資料紀錄 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>甜心龐克</title>
       <link href="/costumes/sweetpunk/"/>
       <url>/costumes/sweetpunk/</url>
@@ -15,9 +40,9 @@
           
           <category> 時裝 </category>
           
-          <category> 全角色 </category>
-          
           <category> 有立繪 </category>
+          
+          <category> 全角色 </category>
           
       </categories>
       
@@ -224,9 +249,9 @@
           
           <category> 時裝 </category>
           
-          <category> 全角色 </category>
-          
           <category> 有立繪 </category>
+          
+          <category> 全角色 </category>
           
       </categories>
       
