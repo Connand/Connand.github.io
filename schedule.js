@@ -41,6 +41,11 @@ let dungeons =
         html: "深海王阿斯莫德<br>",
         days: [0, 4, 6]
     },
+    {
+        name: "格莫瑞科學設施",
+        html: "格莫瑞科學設施<br>",
+        days: [3, 4, 6]
+    }
 ];
 
 dungeons.forEach((e, i) => {
