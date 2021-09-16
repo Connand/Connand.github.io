@@ -8,42 +8,42 @@ let dungeons =
 [
     {
         name: "蒼蠅王12人",
-        html: "蒼蠅王12人<br>",
+        html: '蒼蠅王12人<br>',
         days: [2, 4, 6]
     },
     {
         name: "暴食王12人",
-        html: "暴食王12人<br>",
+        html: '暴食王12人<br>',
         days: [0, 1, 3, 5]
     },
     {
         name: "古龍最深處",
-        html: "古龍最深處<br>",
+        html: '古龍最深處<br>',
         days: [1, 6]
     },
     {
         name: "古龍監獄城",
-        html: "古龍監獄城<br>",
+        html: '古龍監獄城<br>',
         days: [0, 2]
     },
     {
         name: "[兇夢]古龍最深處",
-        html: "[<font color=#ff0000><b>兇夢</b></font>]古龍最深處<br>",
+        html: '[<font color=#ff0000><b>兇夢</b></font>]古龍最深處<br>',
         days: [0, 5]
     },
     {
         name: "[兇夢]古龍監獄城",
-        html: "[<font color=#ff0000><b>兇夢</b></font>]古龍監獄城<br>",
+        html: '[<font color=#ff0000><b>兇夢</b></font>]古龍監獄城<br>',
         days: [3, 6]
     },
     {
         name: "深海王阿斯莫德",
-        html: "深海王阿斯莫德<br>",
+        html: '深海王阿斯莫德<br>',
         days: [0, 4, 6]
     },
     {
         name: "格莫瑞科學設施",
-        html: "格莫瑞科學設施<br>",
+        html: '<a href="/datasets/mutantPNA/">格莫瑞科學設施</a><br>',
         days: [3, 4, 6]
     }
 ];
