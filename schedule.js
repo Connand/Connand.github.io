@@ -56,3 +56,32 @@ dungeons.forEach((e, i) => {
 
 //outut the result to div
   document.getElementById("schedule").innerHTML = result;
+
+let mockEnd = new Date("Dec 18, 2021 04:00:00");
+let _second = 1000;
+let _minute = _second * 60;
+let _hour = _minute * 60;
+let _day = _hour * 24;
+
+document.getElementById('mockBattleEnd').innerHTML = mockEnd.getFullYear() + '/';
+document.getElementById('mockBattleEnd').innerHTML += (mockEnd.getMonth() + 1) + '/';
+document.getElementById('mockBattleEnd').innerHTML += mockEnd.getDate() + ' ';
+document.getElementById('mockBattleEnd').innerHTML += mockEnd.getHours() + ':00';
+
+function showRemaining() {
+    let now = new Date();
+    let distance = mockEnd - now;
+    if(distance <= 0) {
+        document.getElementById('mockBattle').innerHTML = '0日00小時00分00秒';
+    }
+    let days = Math.floor(distance / _day);
+    let hours = Math.floor((distance % _day) / _hour);
+    let minutes = Math.floor((distance % _hour) / _minute);
+    let seconds = Math.floor((distance % _minute) / _second);
+
+    document.getElementById('mockBattle').innerHTML = days + '日';
+    document.getElementById('mockBattle').innerHTML += ('0' + hours).slice(-2) + '時';
+    document.getElementById('mockBattle').innerHTML += ('0' + minutes).slice(-2) + '分';
+    document.getElementById('mockBattle').innerHTML += ('0' + seconds).slice(-2) + '秒';
+}
+setInterval(showRemaining, 1000);
