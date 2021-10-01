@@ -63,10 +63,10 @@ let _minute = _second * 60;
 let _hour = _minute * 60;
 let _day = _hour * 24;
 
-document.getElementById('mockBattleEnd').innerHTML = mockEnd.getFullYear() + '/';
-document.getElementById('mockBattleEnd').innerHTML += (mockEnd.getMonth() + 1) + '/';
-document.getElementById('mockBattleEnd').innerHTML += mockEnd.getDate() + ' ';
-document.getElementById('mockBattleEnd').innerHTML += mockEnd.getHours() + ':00';
+document.getElementById('mockBattleEnd').innerHTML = '<b>' + mockEnd.getFullYear() + '/';
+document.getElementById('mockBattleEnd').innerHTML += '<b>' + (mockEnd.getMonth() + 1) + '/';
+document.getElementById('mockBattleEnd').innerHTML += '<b>' + mockEnd.getDate() + ' ';
+document.getElementById('mockBattleEnd').innerHTML += '<b>' + mockEnd.getHours() + ':00';
 
 function showRemaining() {
     let now = new Date();
@@ -79,9 +79,9 @@ function showRemaining() {
     let minutes = Math.floor((distance % _hour) / _minute);
     let seconds = Math.floor((distance % _minute) / _second);
 
-    document.getElementById('mockBattle').innerHTML = days + '日';
-    document.getElementById('mockBattle').innerHTML += ('0' + hours).slice(-2) + '時';
-    document.getElementById('mockBattle').innerHTML += ('0' + minutes).slice(-2) + '分';
-    document.getElementById('mockBattle').innerHTML += ('0' + seconds).slice(-2) + '秒';
+    document.getElementById('mockBattle').innerHTML = '<b>' + days + '日';
+    document.getElementById('mockBattle').innerHTML += '<b>' + ('0' + hours).slice(-2) + '時';
+    document.getElementById('mockBattle').innerHTML += '<b>' + ('0' + minutes).slice(-2) + '分';
+    document.getElementById('mockBattle').innerHTML += '<b>' + ('0' + seconds).slice(-2) + '秒';
 }
 setInterval(showRemaining, 1000);
