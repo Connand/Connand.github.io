@@ -89,4 +89,5 @@ function showRemaining() {
     document.getElementById('mockBattle').innerHTML += '<b>' + ('0' + minutes).slice(-2) + '分';
     document.getElementById('mockBattle').innerHTML += '<b>' + ('0' + seconds).slice(-2) + '秒';
 }
+showRemaining();
 setInterval(showRemaining, 1000);
