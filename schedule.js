@@ -62,7 +62,7 @@ dungeons.forEach((e, i) => {
 //outut the result to div
   document.getElementById("schedule").innerHTML = result;
 
-let mockEnd = new Date("Dec 18, 2021 04:00:00");
+let mockEnd = new Date("Mar 12, 2022 04:00:00");
 let _second = 1000;
 let _minute = _second * 60;
 let _hour = _minute * 60;
