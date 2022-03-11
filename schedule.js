@@ -61,12 +61,25 @@ dungeons.forEach((e, i) => {
 
 //outut the result to div
   document.getElementById("schedule").innerHTML = result;
-
-let mockEnd = new Date("Mar 12, 2022 04:00:00");
+  
+let boss_names = [
+"黃金莫拉克(前腦型)<img class=\"inline-img\" src=\"https://i.imgur.com/acS6rsI.png\" style=\"height:32px\">", 
+"先代之龍赫克頓蓋爾(魔龍形)<img class=\"inline-img\" src=\"https://i.imgur.com/FWfg4L0.png\" style=\"height:32px\">", 
+"赤色死神(使徒型)<img class=\"inline-img\" src=\"https://i.imgur.com/t8j9844.png\" style=\"height:32px\">"
+];
+let mockStart = new Date("Sep 25, 2021 04:00:00");
 let _second = 1000;
 let _minute = _second * 60;
 let _hour = _minute * 60;
 let _day = _hour * 24;
+
+let now = new Date();
+let elaped = now - mockStart;
+let number_of_season = Math.ceil(elaped / (12 * 7 * 24 * 60 * 60 * 1000)); // 算第幾季：1季 = 12周*7日*24小時*60分鐘*60秒*1000毫秒
+let mock_boss_number = Math.floor(elaped / (7 * 24 * 60 * 60 * 1000) % 3); // 算第幾周 => boss
+let mockEnd = new Date(mockStart.getTime() + number_of_season * (12 * 7 * 24 * 60 * 60 * 1000)); // 算季結束日
+document.getElementById('mockBattleInfo').innerHTML = "<font size=4><b>第 " + number_of_season + " 季</b><a href=\"https://cls.mangot5.com/game/cls/news/detail?contentNo=46589\" rel=\"external nofollow noreferrer\" target=\"_blank\">模擬戰</a></font><br>";
+document.getElementById('mockBattleInfo').innerHTML += "<b>本周BOSS</b>：<br>- " + boss_names[mock_boss_number];
 
 document.getElementById('mockBattleEnd').innerHTML = '<b>' + mockEnd.getFullYear() + '/';
 document.getElementById('mockBattleEnd').innerHTML += '<b>' + (mockEnd.getMonth() + 1) + '/';
@@ -76,6 +89,7 @@ document.getElementById('mockBattleEnd').innerHTML += '<b>' + mockEnd.getHours()
 function showRemaining() {
     let now = new Date();
     let distance = mockEnd - now;
+	
     if(distance <= 0) {
         document.getElementById('mockBattle').innerHTML = '0日00小時00分00秒';
     }
