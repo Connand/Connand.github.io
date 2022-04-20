@@ -7,16 +7,6 @@ let result = "";
 let dungeons =
 [
     {
-        name: "[會面]蒼蠅王伯爾戴布(舊蟲)",
-        html: '[會見]蒼蠅王伯爾戴布(舊蟲)<br>',
-        days: [2, 4, 6]
-    },
-    {
-        name: "[參見]暴食王伯爾戴布(新蟲)",
-        html: '[參見]暴食王伯爾戴布(新蟲)<br>',
-        days: [0, 1, 3, 5]
-    },
-    {
         name: "古龍最深處",
         html: '古龍最深處<br>',
         days: [1, 6]
@@ -39,18 +29,23 @@ let dungeons =
     {
         name: "[會面]深海王阿斯莫德(藍海)",
         html: '[會面]深海王阿斯莫德(藍海)<br>',
-        days: [1, 2, 5]
+        days: [2, 4, 6]
     },
     {
         name: "[參見]縱慾王阿斯莫德(紅海)",
         html: '[<font color=#ff0000><b>參見</b></font>]縱慾王阿斯莫德(紅海)<br>',
-        days: [0, 4, 6]
+        days: [0, 1, 3, 5]
     }, 
     {
         name: "格莫瑞科學設施",
         html: '<a href="/datasets/mutantPNA/">格莫瑞科學設施</a><br>',
         days: [3, 4, 6]
-    }
+    },
+	{
+		name: "[覲見]機械王貝爾菲格",
+        html: '<font color=#ff0000><b>[覲見]機械王貝爾菲格</b></font><a href="/datasets/belphegor/">攻略</a><br>',
+        days: [0, 4, 6]
+	}
 ];
 
 dungeons.forEach((e, i) => {
