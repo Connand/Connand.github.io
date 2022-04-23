@@ -7,26 +7,6 @@ let result = "";
 let dungeons =
 [
     {
-        name: "古龍最深處",
-        html: '古龍最深處<br>',
-        days: [1, 6]
-    },
-    {
-        name: "古龍監獄城",
-        html: '古龍監獄城<br>',
-        days: [0, 2]
-    },
-    {
-        name: "[兇夢]古龍最深處",
-        html: '[<font color=#ff0000><b>兇夢</b></font>]古龍最深處<br>',
-        days: [0, 5]
-    },
-    {
-        name: "[兇夢]古龍監獄城",
-        html: '[<font color=#ff0000><b>兇夢</b></font>]古龍監獄城<br>',
-        days: [3, 6]
-    },
-    {
         name: "[會面]深海王阿斯莫德(藍海)",
         html: '[會面]深海王阿斯莫德(藍海)<br>',
         days: [2, 4, 6]
@@ -36,11 +16,6 @@ let dungeons =
         html: '[<font color=#ff0000><b>參見</b></font>]縱慾王阿斯莫德(紅海)<br>',
         days: [0, 1, 3, 5]
     }, 
-    {
-        name: "格莫瑞科學設施",
-        html: '<a href="/datasets/mutantPNA/">格莫瑞科學設施</a><br>',
-        days: [3, 4, 6]
-    },
 	{
 		name: "[覲見]機械王貝爾菲格",
         html: '<font color=#ff0000><b>[覲見]機械王貝爾菲格</b></font><a href="/datasets/belphegor/">攻略</a><br>',
