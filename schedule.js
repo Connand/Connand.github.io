@@ -40,7 +40,7 @@ let boss_names = [
 "赤色死神(使徒型)<img class=\"inline-img\" src=\"https://i.imgur.com/t8j9844.png\" style=\"height:32px\">"
 ];
 //let mockStart = new Date("Sep 25, 2021 04:00:00");
-let mockStart = new Date("Jun 30, 2022 04:00:00");
+let mockStart = new Date("Jun 25, 2022 04:00:00");
 let _second = 1000;
 let _minute = _second * 60;
 let _hour = _minute * 60;
