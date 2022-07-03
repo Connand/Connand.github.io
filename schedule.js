@@ -34,7 +34,7 @@ dungeons.forEach((e, i) => {
   
 let boss_names = [
 "島的主人(食蟲型)<img class=\"inline-img\" src=\"https://i.imgur.com/HoxQxvb.png\" style=\"height:32px\">",
-"庫勒魔變種(海底型)<img class=\"inline-img\" src=\"https://i.imgur.com/I6BPtrp.png\" style=\"height:32px\">",
+"巴司基(海底型)<img class=\"inline-img\" src=\"https://i.imgur.com/I6BPtrp.png\" style=\"height:32px\">",
 "黃金莫拉克(前腦型)<img class=\"inline-img\" src=\"https://i.imgur.com/acS6rsI.png\" style=\"height:32px\">", 
 "先代之龍赫克頓蓋爾(魔龍形)<img class=\"inline-img\" src=\"https://i.imgur.com/FWfg4L0.png\" style=\"height:32px\">", 
 "赤色死神(使徒型)<img class=\"inline-img\" src=\"https://i.imgur.com/t8j9844.png\" style=\"height:32px\">"
