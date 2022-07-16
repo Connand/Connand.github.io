@@ -49,7 +49,7 @@ let _day = _hour * 24;
 let now = new Date();
 let elaped = now - mockStart;
 let number_of_week = Math.ceil(elaped / (7 * 24 * 60 * 60 * 1000)); // 算第幾季：1周 = 7日*24小時*60分鐘*60秒*1000毫秒
-let mock_boss_number = Math.floor(elaped / (7 * 24 * 60 * 60 * 1000) % 3); // 算第幾周 => boss
+let mock_boss_number = Math.floor(elaped / (7 * 24 * 60 * 60 * 1000) % 5); // 算第幾周 => boss
 let mockEnd = new Date(mockStart.getTime() + number_of_week * (7 * 24 * 60 * 60 * 1000)); // 算結束日
 document.getElementById('mockBattleInfo').innerHTML = "<font size=4><b>第 " + number_of_week + " 周</b><a href=\"https://cls.mangot5.com/game/cls/news/detail?contentNo=46589\" rel=\"external nofollow noreferrer\" target=\"_blank\">模擬戰</a></font><br>";
 document.getElementById('mockBattleInfo').innerHTML += "<b>本周BOSS</b>：<br>- " + boss_names[mock_boss_number];
