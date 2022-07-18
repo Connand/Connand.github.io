@@ -1,0 +1,702 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>增幅PNA | 封印者攻略網</title><meta name="keywords" content="資料紀錄"><meta name="author" content="梧夜"><meta name="copyright" content="梧夜"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="增幅PNA系統介紹(Amplification PNA)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="增幅PNA">
+<meta property="og:url" content="https://connand.github.io/datasets/ampPNA/index.html">
+<meta property="og:site_name" content="封印者攻略網">
+<meta property="og:description" content="增幅PNA系統介紹(Amplification PNA)">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://connand.github.io/img/PNA/PNA_slot.png">
+<meta property="article:published_time" content="2020-09-07T03:54:31.000Z">
+<meta property="article:modified_time" content="2022-07-18T04:56:41.789Z">
+<meta property="article:author" content="梧夜">
+<meta property="article:tag" content="資料紀錄">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://connand.github.io/img/PNA/PNA_slot.png"><link rel="shortcut icon" href="/img/Blacklambslogo.png"><link rel="canonical" href="https://connand.github.io/datasets/ampPNA/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查詢的內容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '複製成功',
+    error: '複製錯誤',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '增幅PNA',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-18 12:56:41'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/tag-diy.css"><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/Blacklambslogo.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">79</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">標籤</div><div class="length-num">32</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分類</div><div class="length-num">16</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-book-open"></i><span> 遊戲攻略/資料</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA"><i class="fa-fw fas fa-book-open"></i><span> PNA資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E7%B9%AA%E5%9C%96"><i class="fa-fw fas fa-book-open"></i><span> 繪圖圖庫</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%A3%9D%E5%82%99"><i class="fa-fw fas fa-book-open"></i><span> 裝備資訊</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%BD%89%E8%81%B7"><i class="fa-fw fas fa-book-open"></i><span> 轉職介紹</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%A9%9F%E7%8E%87%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 機率資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96"><i class="fa-fw fas fa-book-open"></i><span> 其他資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-tshirt"></i><span> 時裝</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D"><i class="fa-fw fas fa-tshirt"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E8%BC%9D%E7%85%8C%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 輝煌時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E9%AB%98%E9%9A%8E%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 高階時裝</span></a></li><li><a class="site-page child" href="/tags/%E6%B3%B3%E8%A3%9D/"><i class="fa-fw fas fa-sun"></i><span> 泳裝系列</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色無立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色無立繪</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://drive.google.com/drive/u/0/folders/13jMkHLxNadtJ4f0AHYQlanXvrvkS651_"><i class="fa-fw fas fa-eye"></i><span> 瞳孔資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站連結</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/PNA/PNA_slot.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">封印者攻略網</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-book-open"></i><span> 遊戲攻略/資料</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA"><i class="fa-fw fas fa-book-open"></i><span> PNA資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E7%B9%AA%E5%9C%96"><i class="fa-fw fas fa-book-open"></i><span> 繪圖圖庫</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%A3%9D%E5%82%99"><i class="fa-fw fas fa-book-open"></i><span> 裝備資訊</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%BD%89%E8%81%B7"><i class="fa-fw fas fa-book-open"></i><span> 轉職介紹</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%A9%9F%E7%8E%87%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 機率資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96"><i class="fa-fw fas fa-book-open"></i><span> 其他資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-tshirt"></i><span> 時裝</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D"><i class="fa-fw fas fa-tshirt"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E8%BC%9D%E7%85%8C%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 輝煌時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E9%AB%98%E9%9A%8E%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 高階時裝</span></a></li><li><a class="site-page child" href="/tags/%E6%B3%B3%E8%A3%9D/"><i class="fa-fw fas fa-sun"></i><span> 泳裝系列</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色無立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色無立繪</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://drive.google.com/drive/u/0/folders/13jMkHLxNadtJ4f0AHYQlanXvrvkS651_"><i class="fa-fw fas fa-eye"></i><span> 瞳孔資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站連結</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">增幅PNA</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2020-09-07T03:54:31.000Z" title="發表於 2020-09-07 11:54:31">2020-09-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2022-07-18T04:56:41.789Z" title="更新於 2022-07-18 12:56:41">2022-07-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/">遊戲資料</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA/">PNA</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="增幅PNA"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>本文僅概略敘述增幅PNA的功能，以及紀錄隱藏序列排法之用途</strong></p>
+<h1 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h1><p>增幅PNA(Amplification PNA，Amp PNA)是目前PNA系統中，稍微需要注意的一個部分。<br>開放此系統時，同時開放PNA等級80等</p>
+<p><img src="/img/PNA/PNA_slot.png"></p>
+<p>增幅PNA跟最初始了PNA一樣，需要先開啟格子，現今版本開格費用已經降低了(原本全部需要7000萬金幣)</p>
+<ul>
+<li>開啟周圍格時，每格 <strong>560萬 金幣，並可獲得1技能點！</strong></li>
+<li>開啟中間格時，需要 <strong>1120萬 金幣，並獲得2技能點！</strong></li>
+<li><font color=#FF0000>所以開啟所有格子，需要 5600萬 金幣，總共有10技能點</font></li>
+</ul>
+<hr>
+<h1 id="種類"><a href="#種類" class="headerlink" title="種類"></a>種類</h1><p>增幅PNA分成3種，如下。 <strong>取得方式主要由熊熊樂園與熊熊樂園的任務獲得</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">種類</th>
+<th align="left">效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">攻擊<img src="/img/PNA/PNA_ampAtk.png"></td>
+<td align="left">對 <strong>種類</strong> 增加傷害 (10等時1%)</td>
+</tr>
+<tr>
+<td align="center">防禦<img src="/img/PNA/PNA_ampDef.png"></td>
+<td align="left">生命值 (10等時最高+700)<br>每3秒恢復HP&amp;MP (10等時恢復HP+60&amp;MP+30)<br>物理/魔法傷害 減免 (10等時+30)<br>物理/魔法防禦力 (10等時+250)</td>
+</tr>
+<tr>
+<td align="center">輔助<img src="/img/PNA/PNA_ampSup.png"></td>
+<td align="left">魔法值 (10等時+150)<br>追加獲得道具/金幣 (10等時+3.5%)<br>移動速度 (10等時+50)<br>技能消耗減少/時間冷卻 (10等時+10%)</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h1><h2 id="連結序列"><a href="#連結序列" class="headerlink" title="連結序列"></a>連結序列</h2><p>當對應顏色的PNA進行適當的排列，即可觸發連結，連接的排(直)或列(平)就會發亮，觸發的連結會將能力值乘以1.2倍<br><img src="/img/PNA/PNA_ampConSerie.png"><br>.</p>
+<h2 id="隱藏序列"><a href="#隱藏序列" class="headerlink" title="隱藏序列"></a><font color=#FF0000>隱藏序列</font></h2><p>隱藏序列是增幅PNA中最重要的部分，為提供主要能力的地方。<br>只要將PNA因子依據特定方式擺放即可產生隱藏序列效果。</p>
+<p>由於增幅PNA的升等費用相對來說很高，感覺上效益也不高。<br>若不是特別追求完美的人，至少把隱藏序列弄起來即可。</p>
+<style>
+.box {
+  width: 100%;
+}
+.pattern {
+  display: inline-block;
+  width: 33%;
+  /* border: 1px solid red;*/
+  vertical-align: middle;
+}
+.description {
+  display: inline-block;
+  width: 66%;
+  /* border: 1px solid red;*/
+  vertical-align: middle;
+  font-size: 20px
+}
+.box table {
+    border: 2px solid #FA0;
+    border-collapse: collapse;
+}
+</style>
+
+<div class="tabs" id="隱藏序列pna"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#隱藏序列pna-1">基傷系列(3)</button></li><li class="tab"><button type="button" data-href="#隱藏序列pna-2">爆傷系列(5)</button></li><li class="tab"><button type="button" data-href="#隱藏序列pna-3">爆擊率系列(2)</button></li><li class="tab"><button type="button" data-href="#隱藏序列pna-4">防禦穿透系列(2)</button></li><li class="tab"><button type="button" data-href="#隱藏序列pna-5">傷害增加系列(3)</button></li><li class="tab"><button type="button" data-href="#隱藏序列pna-6">其他系列(2)</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="隱藏序列pna-1"><div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理攻擊力+100<br>魔法攻擊力+ 50</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理攻擊力+ 50<br>魔法攻擊力+100</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理攻擊力+ 50<br>魔法攻擊力+100</div>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="隱藏序列pna-2"><div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理暴擊傷害+ 5%<br>魔法暴擊傷害+15%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理暴擊傷害+15%<br>魔法暴擊傷害+ 5%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理暴擊傷害+10%<br>魔法暴擊傷害+10%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'><font color=#FF0000><b>常用序列之一</b></font><br>空中暴擊傷害+ 5%<br>背擊暴擊傷害+12%<br>浮空暴擊傷害+ 5%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'><font color=#FF0000><b>常用序列之一</b></font><br>空中暴擊傷害+10%<br>背擊暴擊傷害+ 5%<br>浮空暴擊傷害+ 5%</div>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="隱藏序列pna-3"><div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理暴擊率+15%<br>魔法暴擊率+15%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>空中暴擊率+10%<br>背擊暴擊率+10%<br>浮空暴擊率+10%</div>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="隱藏序列pna-4"><div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="" alt="空圖片"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>物理防禦穿透率+10%<br>魔法防禦穿透率+10%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="" alt="空圖片"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>空中防禦穿透率+10%<br>背擊防禦穿透率+10%<br>浮空防禦穿透率+10%</div>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="隱藏序列pna-5"><div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>傷害+5%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>空中增加傷害+10%<br>背擊增加傷害+ 5%<br>浮空增加傷害+ 5%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>空中增加傷害+ 5%<br>背擊增加傷害+12%<br>浮空增加傷害+ 5%</div>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="隱藏序列pna-6"><div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'><font color=#FF0000><b>常用序列之一</b></font><br>攻擊速度+10%</div>
+</div>
+
+<div class='box'>
+    <div class='pattern'> 
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampAtk.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampDef.png"></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="/img/PNA/PNA_ampSup.png"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='description'>超能爆發時傷害+10%</div>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>
+<h1 id="強化費用"><a href="#強化費用" class="headerlink" title="強化費用"></a>強化費用</h1><p>增幅PNA使用金幣與 <strong><font color=#F00>強化材料 (Lv 5以上則變為 進化材料)</font></strong> 來升級，強化材料可透過分解初始PNA以及增幅PNA來取得</p>
+<p><strong><font size=5>注意：一樣可以使用特殊PNA升級的輔助道具使用</font></strong> <img class="inline-img" src="https://i.imgur.com/ofbuOah.png" style="height:64px"/></p>
+<table>
+<thead>
+<tr>
+<th align="center">等級(Lv.)</th>
+<th align="center">所需材料</th>
+<th align="center">所需金幣</th>
+<th align="center">成功機率</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">0</td>
+<td align="center">1080(強化)</td>
+<td align="center">89萬</td>
+<td align="center">75%</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">1130(強化)</td>
+<td align="center">144萬</td>
+<td align="center">75%</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">1210(強化)</td>
+<td align="center">233萬</td>
+<td align="center">75%</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">1340(強化)</td>
+<td align="center">377萬</td>
+<td align="center">75%</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">1550(強化)</td>
+<td align="center">610萬</td>
+<td align="center">75%</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">1210(進化)</td>
+<td align="center">314萬</td>
+<td align="center"><strong>30%</strong></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">1340(進化)</td>
+<td align="center">159萬</td>
+<td align="center">60%</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">1550(進化)</td>
+<td align="center">265萬</td>
+<td align="center">50%</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">1890(進化)</td>
+<td align="center">358萬</td>
+<td align="center">40%</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">2440(進化)</td>
+<td align="center">479萬</td>
+<td align="center"><strong>10%</strong></td>
+</tr>
+<tr>
+<td align="center">最低消耗</td>
+<td align="center">6310(強化) + 8430(進化)</td>
+<td align="center">3028萬</td>
+<td align="center">-</td>
+</tr>
+</tbody></table>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%B3%87%E6%96%99%E7%B4%80%E9%8C%84/">資料紀錄</a></div><div class="post_share"><div class="social-share" data-image="/img/PNA/PNA_slot.png" data-sites="facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/costumes/swim21/"><img class="prev-cover" src="https://file.nexon.com/NxFile/download/FileDownloader.aspx?oidFile=5629543523268168676" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Aqua Blue Wave(2021泳裝)</div></div></a></div><div class="next-post pull-right"><a href="/costumes/swim20/"><img class="next-cover" src="https://i.imgur.com/9ecbewU.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">盛夏的旋律(2020泳裝)</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相關推薦</span></div><div class="relatedPosts-list"><div><a href="/datasets/AprilFools/" title="愚人節立繪記錄"><img class="cover" src="https://i.imgur.com/3G5Z1Hg.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-02</div><div class="title">愚人節立繪記錄</div></div></a></div><div><a href="/datasets/CentumCity/" title="14村—賽騰城(Centum City)裝備資訊"><img class="cover" src="https://i.imgur.com/o3UpLTV.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-16</div><div class="title">14村—賽騰城(Centum City)裝備資訊</div></div></a></div><div><a href="/datasets/ClosersSongs/" title="封印者：主題歌曲(0314補上動畫OP與ED)"><img class="cover" src="http://img.youtube.com/vi/VSyNr7H7hCM/maxresdefault.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-10-16</div><div class="title">封印者：主題歌曲(0314補上動畫OP與ED)</div></div></a></div><div><a href="/datasets/Event_Calculator/" title="字母活動計算機"><img class="cover" src="https://images.mangot5.com/Images/cms/happycode/20220120/1642641329691.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-01-23</div><div class="title">字母活動計算機</div></div></a></div><div><a href="/datasets/Fusion_effect/" title="融合威嚴介紹"><img class="cover" src="https://i.imgur.com/Rbagilg.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-02-01</div><div class="title">融合威嚴介紹</div></div></a></div><div><a href="/datasets/JP_vocal/" title="日配相關資料整理"><img class="cover" src="https://closers.naddicjapan.com/event_2020/20220421_cdes/01/closers/img/bg_top.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-03</div><div class="title">日配相關資料整理</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">2022/04/20更新：<br>機械王開放，副本排程修改<br>---<br>繪師：<a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=100024698682237">煉銅術士</a><img src="/img/ProfilePic_56.png"><div class="announcement-button"> <a class="button--animated" href="https://www.facebook.com/Closersinfo" rel="external nofollow noreferrer" target="_blank">FB粉絲專頁</a> <a class="button--animated" href="https://closersinfo.xyz/" rel="external nofollow noreferrer" target="_blank">運行中的正式版</a> <a class="button--animated" href="https://discord.gg/ACBYdf5TNd" rel="external nofollow noreferrer" target="_blank">Discord群組</a></div></div></div><div class="card-widget dungeons-today" id="dungeons-today"><div class="item-headline"><i class="fas fa-flag-checkered"></i><span>今天開放調查本（台版）</span></div><div class="item-content">【2022/04/21機械王<a href="https://cls.mangot5.com/game/cls/news/detail?contentNo=49121" rel="external nofollow noreferrer" target="_blank">更新時程</a>】<br><b>除調查本，其他特殊副本已改為每周入場</b><div id="schedule"></div><br><div id="mockBattleInfo"><b>第 2 季</b><a href="https://cls.mangot5.com/game/cls/news/detail?contentNo=46589" rel="external nofollow noreferrer" target="_blank">模擬戰</a></div><b>結算日期</b>：<br><div id="mockBattleEnd"></div><div id="mockBattle"></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B0%A1%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">簡介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A8%AE%E9%A1%9E"><span class="toc-number">2.</span> <span class="toc-text">種類</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BA%8F%E5%88%97"><span class="toc-number">3.</span> <span class="toc-text">序列</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%A3%E7%B5%90%E5%BA%8F%E5%88%97"><span class="toc-number">3.1.</span> <span class="toc-text">連結序列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9A%B1%E8%97%8F%E5%BA%8F%E5%88%97"><span class="toc-number">3.2.</span> <span class="toc-text">隱藏序列</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%B7%E5%8C%96%E8%B2%BB%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">強化費用</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/datasets/ampPNA/" title="增幅PNA"><img src="/img/PNA/PNA_slot.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="增幅PNA"/></a><div class="content"><a class="title" href="/datasets/ampPNA/" title="增幅PNA">增幅PNA</a><time datetime="2022-07-18T04:56:41.789Z" title="更新於 2022-07-18 12:56:41">2022-07-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/Fusion_effect/" title="融合威嚴介紹"><img src="https://i.imgur.com/Rbagilg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="融合威嚴介紹"/></a><div class="content"><a class="title" href="/datasets/Fusion_effect/" title="融合威嚴介紹">融合威嚴介紹</a><time datetime="2022-07-16T05:22:57.956Z" title="更新於 2022-07-16 13:22:57">2022-07-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/epicgears/" title="史詩裝備掉落紀錄(0703更新，3小時4機械)"><img src="https://file.nexon.com/NxFile/download/FileDownloader.aspx?oidFile=4764852390518072813" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="史詩裝備掉落紀錄(0703更新，3小時4機械)"/></a><div class="content"><a class="title" href="/datasets/epicgears/" title="史詩裝備掉落紀錄(0703更新，3小時4機械)">史詩裝備掉落紀錄(0703更新，3小時4機械)</a><time datetime="2022-07-15T13:56:00.450Z" title="更新於 2022-07-15 21:56:00">2022-07-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/swim22/" title="波光粼粼的海洋(Sparkling Ocean)"><img src="https://i.imgur.com/vRKh37h.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="波光粼粼的海洋(Sparkling Ocean)"/></a><div class="content"><a class="title" href="/costumes/swim22/" title="波光粼粼的海洋(Sparkling Ocean)">波光粼粼的海洋(Sparkling Ocean)</a><time datetime="2022-07-14T08:00:11.407Z" title="更新於 2022-07-14 16:00:11">2022-07-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/decisive_agent/" title="第五次轉職 - 決戰特工(Decisive Agent)"><img src="https://ssl.nexon.com/s2/game/closers/2021/events/211216_agent_j6f84/contents/visual.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第五次轉職 - 決戰特工(Decisive Agent)"/></a><div class="content"><a class="title" href="/datasets/decisive_agent/" title="第五次轉職 - 決戰特工(Decisive Agent)">第五次轉職 - 決戰特工(Decisive Agent)</a><time datetime="2022-07-14T03:21:48.151Z" title="更新於 2022-07-14 11:21:48">2022-07-14</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2022 By 梧夜</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="淺色和深色模式轉換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到頂部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜尋</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜尋文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script src="/schedule.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
