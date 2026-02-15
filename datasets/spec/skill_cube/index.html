@@ -1,0 +1,821 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>技能核心與軍團程式 | 封印者攻略網</title><meta name="keywords" content="資料紀錄"><meta name="author" content="梧夜"><meta name="copyright" content="梧夜"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="2022年技能核心改版介紹">
+<meta property="og:type" content="article">
+<meta property="og:title" content="技能核心與軍團程式">
+<meta property="og:url" content="https://closersinfo.xyz/datasets/spec/skill_cube/index.html">
+<meta property="og:site_name" content="封印者攻略網">
+<meta property="og:description" content="2022年技能核心改版介紹">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://i.imgur.com/WMIttiF.png">
+<meta property="article:published_time" content="2022-03-06T04:45:59.000Z">
+<meta property="article:modified_time" content="2025-07-21T13:09:11.000Z">
+<meta property="article:author" content="梧夜">
+<meta property="article:tag" content="資料紀錄">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/WMIttiF.png"><link rel="shortcut icon" href="/img/Blacklambslogo.png"><link rel="canonical" href="https://closersinfo.xyz/datasets/spec/skill_cube/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js" defer></script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'pub-1886641105210989',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-7C9EMS2MBS"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7C9EMS2MBS');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"AAUZ8EE5ZJ","apiKey":"eef669403feb1a7d471939f54880dd42","indexName":"closersinfo","hits":{"per_page":10},"languages":{"input_placeholder":"搜尋文章","hits_empty":"找不到您查詢的內容：${query}","hits_stats":"找到 ${hits} 條結果，用時 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '複製成功',
+    error: '複製錯誤',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '技能核心與軍團程式',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-07-21 21:09:11'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/tag-diy.css"><link rel="stylesheet" href="/css/splitted-div.css"><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/Blacklambslogo.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">182</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">標籤</div><div class="length-num">45</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-book-open"></i><span> 遊戲資料</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/characters-introduction"><i class="fa-fw fas fa-book-open"></i><span> 角色介紹</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"><i class="fa-fw fas fa-shield-alt"></i><span> 新手指南</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA"><i class="fa-fw fas fa-dna"></i><span> PNA資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%A3%9D%E5%82%99"><i class="fa-fw fas fa-book-open"></i><span> 主線裝備</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87"><i class="fa-fw fas fa-book-open"></i><span> 能力提升</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%A9%9F%E7%8E%87%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 機率資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96"><i class="fa-fw fas fa-book-open"></i><span> 其他資料</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/folders/1jFK6bpar4oSDy2_DeNQ4wOqFaBHDhoJ7?usp=share_link"><i class="fa-fw fas fa-cloud"></i><span> 雲端圖庫</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-tshirt"></i><span> 時裝</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D"><i class="fa-fw fas fa-tshirt"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E8%BC%9D%E7%85%8C%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 輝煌時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E9%AB%98%E9%9A%8E%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 高階時裝</span></a></li><li><a class="site-page child" href="/tags/%E6%B3%B3%E8%A3%9D/"><i class="fa-fw fas fa-sun"></i><span> 泳裝系列</span></a></li><li><a class="site-page child" href="/costumes/char-special/"><i class="fa-fw fas fa-star-of-david"></i><span> 角色專屬時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E5%96%AE%E7%AB%8B%E7%B9%AA/"><i class="fa-fw fas fa-image"></i><span> 單立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 全角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 部分角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色無立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色無立繪</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/u/0/folders/13jMkHLxNadtJ4f0AHYQlanXvrvkS651_"><i class="fa-fw fas fa-eye"></i><span> 瞳孔資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallery.closersinfo.xyz/"><i class="fa-fw fas fa-database"></i><span> 立繪查詢</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站連結</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 關於與贊助</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></li><li><a class="site-page child" href="/Donate/"><i class="fa-fw fas fa-dollar-sign"></i><span> 贊助</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.imgur.com/WMIttiF.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">封印者攻略網</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-book-open"></i><span> 遊戲資料</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/characters-introduction"><i class="fa-fw fas fa-book-open"></i><span> 角色介紹</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"><i class="fa-fw fas fa-shield-alt"></i><span> 新手指南</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA"><i class="fa-fw fas fa-dna"></i><span> PNA資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%A3%9D%E5%82%99"><i class="fa-fw fas fa-book-open"></i><span> 主線裝備</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87"><i class="fa-fw fas fa-book-open"></i><span> 能力提升</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%A9%9F%E7%8E%87%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 機率資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96"><i class="fa-fw fas fa-book-open"></i><span> 其他資料</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/folders/1jFK6bpar4oSDy2_DeNQ4wOqFaBHDhoJ7?usp=share_link"><i class="fa-fw fas fa-cloud"></i><span> 雲端圖庫</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-tshirt"></i><span> 時裝</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D"><i class="fa-fw fas fa-tshirt"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E8%BC%9D%E7%85%8C%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 輝煌時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E9%AB%98%E9%9A%8E%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 高階時裝</span></a></li><li><a class="site-page child" href="/tags/%E6%B3%B3%E8%A3%9D/"><i class="fa-fw fas fa-sun"></i><span> 泳裝系列</span></a></li><li><a class="site-page child" href="/costumes/char-special/"><i class="fa-fw fas fa-star-of-david"></i><span> 角色專屬時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E5%96%AE%E7%AB%8B%E7%B9%AA/"><i class="fa-fw fas fa-image"></i><span> 單立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 全角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 部分角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色無立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色無立繪</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/u/0/folders/13jMkHLxNadtJ4f0AHYQlanXvrvkS651_"><i class="fa-fw fas fa-eye"></i><span> 瞳孔資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallery.closersinfo.xyz/"><i class="fa-fw fas fa-database"></i><span> 立繪查詢</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站連結</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 關於與贊助</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></li><li><a class="site-page child" href="/Donate/"><i class="fa-fw fas fa-dollar-sign"></i><span> 贊助</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">技能核心與軍團程式</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2022-03-06T04:45:59.000Z" title="發表於 2022-03-06 12:45:59">2022-03-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2025-07-21T13:09:11.000Z" title="更新於 2025-07-21 21:09:11">2025-07-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/">遊戲資料</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87/">能力提升</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="技能核心與軍團程式"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://file.nexon.com/NxFile/Download/FileDownloader.aspx?oidFile=4692777217178996618">官網特效圖</a><br><a target="_blank" rel="noopener external nofollow noreferrer" href="https://closers.nexon.com/News/GMNote/View?n4ArticleSN=506">參考更新公告(韓版)</a></p>
+<hr>
+<h1 id="技能核心使用介面"><a href="#技能核心使用介面" class="headerlink" title="技能核心使用介面"></a>技能核心使用介面</h1><div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span>使用介面</span></div>
+    <div class="hide-content"><p><strong><font color=#ff0000 size=5>技能核心將會變成帳號制，有專屬背包可以存放</font></strong><br><strong><p align="right"><font size=5>(打勾處)顯示自己類型<br>(<font color=#f5c71a>黃色按鈕</font>)核心合成<br>高級 菁英<br>傳說 <font color=#ff0000>覺醒</font></font></p></strong><br><strong><p align="center"><font size=5>可以放置2種核心：原版的(傷害增加等等) + 覺醒技能</font></p></strong></p>
+<p><img src="https://file.nexon.com/NxFile/Download/FileDownloader.aspx?oidFile=5485478582014705885"></p>
+</div></div>
+
+<hr>
+<h1 id="核心合成"><a href="#核心合成" class="headerlink" title="核心合成"></a>核心合成</h1><div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span>使用介面</span></div>
+    <div class="hide-content"><p><strong>使用3個相同等級(例如傳說或覺醒等)的技能核心可以進行合成，10%機率可以合成到高一階的核心</strong></p>
+<p><img src="https://file.nexon.com/NxFile/Download/FileDownloader.aspx?oidFile=4764902053224907063"></p>
+</div></div>
+
+<h2 id="目前取得技能核心的管道"><a href="#目前取得技能核心的管道" class="headerlink" title="目前取得技能核心的管道"></a>目前取得技能核心的管道</h2><p>此系統開放後，取得技能核心箱子的管道將會受約束(尤其是製作機與販賣機)</p>
+<ol>
+<li>PVP商店</li>
+<li>貢獻度(榮譽)商店</li>
+<li>平原之門製作機-&gt;特殊作戰區域</li>
+<li>平原之門副本(紅藍本)</li>
+</ol>
+<hr>
+<h1 id="覺醒技能核心"><a href="#覺醒技能核心" class="headerlink" title="覺醒技能核心"></a>覺醒技能核心</h1><p>此系統更新除了將原本大淨化作戰(雷本)的覺醒技能改為不受裝備制約。<br>並每個角色都新增了一招 <strong><font color=#ff0000>新覺醒技能</font></strong> ，變更技能為獎章技能(俗稱鎖技)</p>
+<h2 id="取得來源"><a href="#取得來源" class="headerlink" title="取得來源"></a>取得來源</h2><p>新舊覺醒技能核心取得方式如下 <strong><font color=#ff0000>請注意新舊覺醒道具圖外框四角的差別</font></strong></p>
+<ul>
+<li>舊覺醒技能核心(雷本覺醒) <img class="inline-img" src="https://i.imgur.com/1GGW1T1.png" style="height:50px"/><ol>
+<li><strong><font color=#ff0000>（已無法製作）</font></strong><del>平原之門深層製作機：可製作各一個自身角色的覺醒技能。 <strong><font color=#ff0000>製作限制：每個角色1次</font></strong></del>  <img class="inline-img" src="https://i.imgur.com/gSpLPD7.png" style="height:170px"/>
+  <img class="inline-img" src="https://i.imgur.com/LYV6G59.png" style="height:170px"/></li>
+<li>使用覺醒技能核心合成(90%機率)</li>
+<li>使用傳說或菁英核心合成(10%機率)</li>
+<li><img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:40px"/>未鑑定覺醒技能核心(不可交易，90%機率 **<font color=#ff0000>軍團程式獎勵（請參考下方）</font>** )</li>
+</ol>
+</li>
+<li>新覺醒技能核心 <img class="inline-img" src="https://i.imgur.com/LrllCYr.png" style="height:50px"/><ol>
+<li>使用覺醒技能核心合成(10%機率)</li>
+<li><img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:40px"/>未鑑定覺醒技能核心(可交易，10%機率 **<font color=#ff0000>軍團程式獎勵（請參考下方）</font>** )</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h1 id="軍團程式"><a href="#軍團程式" class="headerlink" title="軍團程式"></a>軍團程式</h1><p>軍團程式(或軍團計畫，Legion Program)，旨在考驗種族增傷的輸出能力檢測(主要為<a target="_blank" rel="noopener external nofollow noreferrer" href="https://connand.github.io/datasets/mutantPNA/">突變PNA</a>)<br>目前開放的副本分為五種：2023&#x2F;04&#x2F;20新增特異型、2023&#x2F;05&#x2F;03新增業火型</p>
+<table>
+<thead>
+<tr>
+<th align="center">食蟲型</th>
+<th align="center">海底型</th>
+<th align="center">前腦型</th>
+<th align="center">野生型</th>
+<th align="center">特異型</th>
+<th align="center">業火型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/HoxQxvb.png" style="height:64px"/></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/I6BPtrp.png" style="height:64px"/></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/acS6rsI.png" style="height:64px"/></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/8ONbMJo.png" style="height:64px"/></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/gdXdckN.png" style="height:64px"/></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/3FV9pDB.png" style="height:64px"/></td>
+</tr>
+</tbody></table>
+<h2 id="入場與玩法"><a href="#入場與玩法" class="headerlink" title="入場與玩法"></a>入場與玩法</h2><h3 id="舊版"><a href="#舊版" class="headerlink" title="舊版"></a>舊版</h3><p>入場建議戰力為1000萬。共分 10 個 WAVE，每個 WAVE 通常需要擊殺 30 隻怪物即可通關此 WAVE。</p>
+<h3 id="新版"><a href="#新版" class="headerlink" title="新版"></a>新版</h3><ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.naddic.co.kr/ko/game/cls/event/announce/detail?contentNo=336">韓版 2025&#x2F;01&#x2F;23 改版內容</a><br>入場建議戰力為1000萬。但改為無限出怪。<br>擊殺怪物可獲得積分，每 1000 分可獲的獎勵，最多 30000 分。<br><strong>並且會有一個副本技能，能量條滿時使用(Ctrl + Q)會恢復 100% MP，並且重置終極技以外所有技能的冷卻。</strong></li>
+</ul>
+<h2 id="樓層獎勵"><a href="#樓層獎勵" class="headerlink" title="樓層獎勵"></a>樓層獎勵</h2><div class="tabs" id="樓層獎勵"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#樓層獎勵-1">2025改版</button></li><li class="tab"><button type="button" data-href="#樓層獎勵-2">減負版</button></li><li class="tab"><button type="button" data-href="#樓層獎勵-3">新版</button></li><li class="tab"><button type="button" data-href="#樓層獎勵-4">舊版</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="樓層獎勵-1"><ul>
+<li><strong><font color=#f00>每周帳號入場 2 次 (6 種副本共用入場次數，可重複入場)</font></strong></li>
+<li>若滿分可得：<img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:40px"/>x1040 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:40px"/>x77 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:40px"/>x24 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:40px"/>x6</li>
+<li><img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:40px"/>：使用後可獲得 PNA 經驗 5,000。</li>
+</ul>
+<div class="tabs" id="分數獎勵"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分數獎勵-1">0 - 10,000</button></li><li class="tab"><button type="button" data-href="#分數獎勵-2">10,001 - 20,000</button></li><li class="tab"><button type="button" data-href="#分數獎勵-3">20,001 - 30,000</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分數獎勵-1"><div class="wave_reward">
+
+<table>
+<thead>
+<tr>
+<th align="center">積分</th>
+<th align="center">獎勵</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x5 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">2,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x5 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">3,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x5 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">4,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x5 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">5,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x100 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">6,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x10 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">7,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x10 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">8,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x10 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">9,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x10 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x1 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">10,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x100 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x5 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center"><strong>總和</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:40px"/>x260 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:40px"/>x11<br><img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:40px"/>x24 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:40px"/>x6</td>
+</tr>
+</tbody></table>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="分數獎勵-2"><div class="wave_reward">
+
+<table>
+<thead>
+<tr>
+<th align="center">積分</th>
+<th align="center">獎勵</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">11,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x15 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">12,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x15 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">13,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x15 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">14,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x15 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">15,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x100 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">16,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x20 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">17,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x20 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">18,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x20 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">19,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x20 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x2</td>
+</tr>
+<tr>
+<td align="center">20,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x100 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center"><strong>總和</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:40px"/>x340 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:40px"/>x22</td>
+</tr>
+</tbody></table>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="分數獎勵-3"><div class="wave_reward">
+
+<table>
+<thead>
+<tr>
+<th align="center">積分</th>
+<th align="center">獎勵</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">21,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x25 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">22,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x25 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">23,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x25 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">24,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x25 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">25,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x100 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">26,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x30 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">27,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x30 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">28,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x30 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">29,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x30 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x4</td>
+</tr>
+<tr>
+<td align="center">30,000</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x100 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:36px"/>x6</td>
+</tr>
+<tr>
+<td align="center"><strong>總和</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:40px"/>x440 <img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:40px"/>x44</td>
+</tr>
+</tbody></table>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="樓層獎勵-2"><p>為降低農本負擔，因此：</p>
+<ul>
+<li><strong><font color=#f00>從原本 6 場降為 2 場 (6 種副本共用入場次數，可重複入場)</font></strong></li>
+<li>總獎勵與原本相同</li>
+</ul>
+<div class="wave_reward">
+
+<table>
+<thead>
+<tr>
+<th align="center">WAVE數</th>
+<th align="center">獎勵</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x15 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x15 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x18 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x27 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x48 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x33 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x33 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x33 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x33 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x60 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:36px"/>x3</td>
+</tr>
+<tr>
+<td align="center"><strong>總和</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>x315 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:48px"/>x24 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:48px"/>x6</td>
+</tr>
+</tbody></table>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="樓層獎勵-3"><p>之後軍團計畫更新以後會降低其耗時與複雜度，總結來說：</p>
+<ul>
+<li><strong><font color=#f00>從原本 7 場降為 4 場 (4種類型各1場)</font></strong></li>
+<li>每關各WAVE通關條件 <strong><font color=#f00>從 50 隻降低為 30 隻，只要一波怪物的數量</font></strong></li>
+<li>無區分追加獎勵</li>
+</ul>
+<div class="wave_reward">
+
+<table>
+<thead>
+<tr>
+<th align="center">WAVE數</th>
+<th align="center">獎勵</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x5 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x5 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x6 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x9 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x16 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x11 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x11 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x11 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x11 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:36px"/>x20 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:36px"/>x1</td>
+</tr>
+<tr>
+<td align="center"><strong>總和</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>x105 <img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:48px"/>x8 <img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:48px"/>x2</td>
+</tr>
+</tbody></table>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="樓層獎勵-4"><table>
+<thead>
+<tr>
+<th align="center">無追加獎勵</th>
+<th align="center">有追加獎勵</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><img src="https://i.imgur.com/Ot9RMCc.png"></td>
+<td align="center"><img src="https://i.imgur.com/6HNLzbf.png"></td>
+</tr>
+<tr>
+<td align="center">總共<img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x48</td>
+<td align="center">總共<img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x60</td>
+</tr>
+</tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>
+<h1 id="軍團程式可換獎勵"><a href="#軍團程式可換獎勵" class="headerlink" title="軍團程式可換獎勵"></a>軍團程式可換獎勵</h1><table>
+<thead>
+<tr>
+<th align="left">道具</th>
+<th align="center">所需材料</th>
+<th align="center">限制</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/6PHDZf6.png" style="height:48px"/>威嚴精髓 x1</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x500</td>
+<td align="center">每個帳號一個月 3 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/3MjLN14.png" style="height:48px"/>時裝合成纖維 x1</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x250</td>
+<td align="center">每個帳號一個月 6 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/eCOAypO.png" style="height:48px"/>寵物核心 x50</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x250</td>
+<td align="center">每個帳號一個月 6 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/ofbuOah.png" style="height:48px"/>完美PNA進化套裝 x1 <strong>(改版後增加)</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x100</td>
+<td align="center">每個帳號一周 3 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="/img/material/PNA_bottle_5k.png" style="height:48px"/>高級PNA成長活性劑 x1 <strong>(改版後增加)</strong></td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x50</td>
+<td align="center">每個帳號一周 10 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/9wEUbq4.png" style="height:48px"/>突變PNA膠囊 x20</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x140</td>
+<td align="center">每個<strong>角色</strong>一周 3 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/7k7AciP.png" style="height:48px"/>未鑒定菁英屬性核心(1種) x8</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x30</td>
+<td align="center">每個<strong>角色</strong>一周 3 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/YVCXiKT.png" style="height:48px"/>未鑒定傳說屬性核心(1種) x1</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x40</td>
+<td align="center">每個<strong>角色</strong>一周 3 次</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/2dUhUMX.png" style="height:48px"/>未鑒定覺醒技能核心(1種) x1</td>
+<td align="center"><img class="inline-img" src="https://i.imgur.com/cKzXEUr.png" style="height:48px"/>四維超正立方體因子x200</td>
+<td align="center">每個帳號一周 2 次</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="新覺醒技能資料"><a href="#新覺醒技能資料" class="headerlink" title="新覺醒技能資料"></a>新覺醒技能資料</h1><div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span><font color=red>NEW! </font>二大覺醒技能特效參考 (黑羊、紅狼，含公告連結)</span></div>
+    <div class="hide-content"><ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://closers.nexon.com/News/Notice/View?n4PageNo=2&n4ArticleSN=140827">公告</a></li>
+</ul>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/tPfhpuITm6I" frameborder="0" loading="lazy" allowfullscreen></iframe></div></div></div>
+
+<div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span><font color=red>NEW! </font>二大覺醒技能特效參考 (夜梟、嚙鼠，含公告連結)</span></div>
+    <div class="hide-content"><ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://closers.nexon.com/News/Notice/View?n4ArticleSN=140944">公告</a></li>
+</ul>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/bgFz-OnYE2o" frameborder="0" loading="lazy" allowfullscreen></iframe></div></div></div>
+
+<div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span>技能特效參考</span></div>
+    <div class="hide-content"><div class="video-container"><iframe src="https://www.youtube.com/embed/N8BPDRTKyg8" frameborder="0" loading="lazy" allowfullscreen></iframe></div></div></div>
+<p><strong><font color=#ff0000>可能因平衡而變化，此區未必能即時更新</font></strong><br><strong>二大覺醒資料更新完畢，有錯請告知！</strong><br><strong><font color=#ff0000>倍率或功能以Lv. 15為準 (嚙鼠必殺覺醒以Lv. 7為準) ，冷卻時間以減少40%為準</font></strong><br><strong><font color=#ff0000>多下倍率均為已經算入的數值，除以打擊數即為單下倍率：例如 (*5)：13725% 則單下為 2745%</font></strong></p>
+<div class="tabs" id="新覺醒技能資料"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#新覺醒技能資料-1">李世河(Seha)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-2">李雪菲(Seulbi)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-3">徐維莉(Yuri)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-4">J</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-5">米斯特汀(Tein)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-6">納塔(Nata)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-7">蕾比雅(Levia)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-8">哈比(Harpy)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-9">緹娜(Tina)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-10">薇歐莉特(Violet)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-11">沃爾夫姜(Wolfgang)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-12">露娜(Luna)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-13">索瑪(Soma)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-14">白(Bai)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-15">賽特(Seth)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-16">未來(Mirae)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-17">徹斯(Chulsoo)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-18">銀河(Eunha)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-19">露西(Lucy)</button></li><li class="tab"><button type="button" data-href="#新覺醒技能資料-20">愛里(Aeri)</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="新覺醒技能資料-1"><p><img class="inline-img" src="/img/skill_awaken/badge/Seha.png" style="height:60px"/> <strong>&lt;集中火力&gt;流星雨</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>真實傷害 14040%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Seha.png" style="height:60px"/> <strong>&lt;脈衝氣流斬&gt;雷霆霹靂</strong> 冷卻時間 53.9 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br><font color=#C7C81F>- 技能倍率</font><br>壓縮(*4)：真實傷害 4564%<br>劍擊：真實傷害 12160%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>爆炸(*5)：真實傷害 13725%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-2"><p><img class="inline-img" src="/img/skill_awaken/badge/Seulbi.png" style="height:60px"/> <strong>&lt;迷你衛星&gt;雷電</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>使用時被動堆疊 1 層<br>使用碎片生成技能時，冷卻時間減少 1 秒<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>7560%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>11088%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Seulbi.png" style="height:60px"/> <strong>&lt;衛星隕落&gt;真空崩潰</strong> 冷卻時間 57 秒<br><font color=#090>- 技能功能</font><br><font color=#18F0E8>確定判定</font> - 背擊 &#x2F; 浮空<br><font color=#C7C81F>- 技能倍率</font><br>崩塌：49970%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-3"><p><img class="inline-img" src="/img/skill_awaken/badge/Yuri.png" style="height:60px"/> <strong>&lt;晴天霹靂&gt;永恆</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>無敵<br>使用時獲得MP 30%<br>使用時獲得超能力 15%<br>依[必殺：必勝決心]等級增加傷害 (下列為Lv. 9倍率)<br>命中時，敵人爆擊抵抗力減少 30% (持續 10秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>7425%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>7058%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Yuri.png" style="height:60px"/> <strong>&lt;一閃&gt;千變萬化</strong> 冷卻時間 45.48 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 背擊 &#x2F; 浮空<br><font color=#C7C81F>- 技能倍率</font><br>狂砍(*10)：20150%<br>收尾(*3)：物理6726%、魔法8065%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-4"><p><img class="inline-img" src="/img/skill_awaken/badge/J.png" style="height:60px"/> <strong>&lt;來一發馬殺雞&gt;乾式桑拿</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>疊加維生素片 1 層<br>使用必殺技時，冷卻減少 3 秒<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>7828%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>12338%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/J.png" style="height:60px"/> <strong>&lt;我在天上飛&gt;精神明晰</strong> 冷卻時間 48.4 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 背擊 &#x2F; 浮空<br><font color=#C7C81F>- 技能倍率</font><br>一擊(*3)：39295%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-5"><p><img class="inline-img" src="/img/skill_awaken/badge/Tein.png" style="height:60px"/> <strong>&lt;魔槍芬裡厄&gt;閃電狼</strong> 冷卻時間 14 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>疊加芬裡厄的牙齒 3 層<br>芬裡厄的牙齒：</p>
+<ul>
+<li>使用米德加爾特時，疊加 1 層 (強化魔槍為 3 層)</li>
+<li>使用慕斯貝爾海姆時，疊加 3 層</li>
+<li>使用尼福爾海姆時，疊加 3 層</li>
+<li>最多 6 層</li>
+</ul>
+<p><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>7828%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>12338%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Tein.png" style="height:60px"/> <strong>&lt;瓦爾哈拉的神殿&gt;赫瓦格密爾</strong> 冷卻時間 52.8 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 背擊 &#x2F; 浮空<br><font color=#C7C81F>- 技能倍率</font><br>解放：40319%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-6"><p><img class="inline-img" src="/img/skill_awaken/badge/Nata.png" style="height:60px"/> <strong>&lt;狂氣暴走&gt;呼喚鬼神</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>使用時，必殺技冷卻時間減少 2 秒<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>24192%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Nata.png" style="height:60px"/> <strong>&lt;花焰亂顫&gt;暗躍</strong> 冷卻時間 55.2 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 背擊 &#x2F; 浮空<br>噩夢歸來觸發時額外觸發 <strong>폭주하는 어둠</strong> 攻擊<br><font color=#C7C81F>- 技能倍率</font><br>날뛰기(*4)：10034%<br>어둠 베기：12543%<br>그림자 베기：10035%<br>폭주하는 어둠（噩夢歸來觸發時）：17558%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-7"><p><img class="inline-img" src="/img/skill_awaken/badge/Levia.png" style="height:60px"/> <strong>&lt;地獄爆發&gt;恐怖之珠</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>使用時，獲得超能力 30%<br>BUFF[接近的恐懼]：爆擊傷害+35% (持續 10 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>真實傷害 8116%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>真實傷害 10260%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Levia.png" style="height:60px"/> <strong>&lt;末日降臨&gt;閃焰 (Flare)</strong> 冷卻時間 48.96 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>壓縮期間吸引怪物<br>不適用 <strong>龍的潛力</strong> 效果<br><font color=#C7C81F>- 技能倍率</font><br>壓縮(*4)：14434%<br>爆炸：4811%<br>熱風：28873%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-8"><p><img class="inline-img" src="/img/skill_awaken/badge/Harpy.png" style="height:60px"/> <strong>&lt;卡牌之星&gt;弔詭的擺牌</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>無敵<br>使用時獲得MP 20%<br>打擊時爆擊抵抗減少 20% (持續 10 秒)<br>BUFF[假面的舞會女王] (持續 15 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>16247%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>12060%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Harpy.png" style="height:60px"/> <strong>&lt;怪盜之神的盛大演出&gt;腳翼射擊 (Talaria shoot)</strong> 冷卻時間 ? 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>對血量低於 25% 的敵人增傷 20%<br><font color=#C7C81F>- 技能倍率</font><br>風道：36735%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-9"><p><img class="inline-img" src="/img/skill_awaken/badge/Tina.png" style="height:60px"/> <strong>&lt;急速冷凍&gt;打雪仗</strong> 冷卻時間 12 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>超低溫堆疊 8 層<br><font color=#C7C81F>- 技能倍率</font>(單顆手榴彈)<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>5690%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>2613%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Tina.png" style="height:60px"/> <strong>&lt;終末啟動&gt;軌道武器 (Orbital strike)</strong> 冷卻時間 56.6 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>對血量低於 25% 的敵人時， <strong>衛星瞄準</strong> 增傷 25%<br>隨 <strong>過熱</strong> 消耗量增加， <strong>衛星雷射</strong> 的傷害與範圍增加<br><font color=#C7C81F>- 技能倍率</font><br>衛星瞄準(*6)：15610%<br>衛星雷射 (1階段)*3：23399%<br>衛星雷射 (2階段)*2：25742%<br>衛星雷射 (3階段)*1：28084% </p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-10"><p><img class="inline-img" src="/img/skill_awaken/badge/Violet.png" style="height:60px"/> <strong>&lt;拜託了海德!&gt;颶風昇龍切擊!!</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>BUFF[颱風小姐]：爆擊傷害+25% (持續 10 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>10260%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Violet.png" style="height:60px"/> <strong>&lt;百花撩亂&gt;血腥薔薇 (Bloody rose)</strong> 冷卻時間 55.1 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>使用時獲得 <strong>半超越</strong> (含追加攻擊)<br>持有 3 個 <strong>半超越</strong> 使用時，獲得 <strong>超越</strong><br>使用時僅獲得 1 種強化攻擊 (前斬) ，追加攻擊時獲得所有強化攻擊與狂拳<br><font color=#C7C81F>- 技能倍率</font><br>分支（每下）：880%<br>荊棘斬：5274%<br>割花：1758%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-11"><p><img class="inline-img" src="/img/skill_awaken/badge/Wolfgang.png" style="height:60px"/> <strong>&lt;篇章：捕食&gt;飢餓之牙</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>堆疊黑魔寶典 3 層<br>[篇章：吸收]傷害增加50%<br>使用[篇章：吸收]獲得BUFF[精神分析]<br>BUFF[精神分析]：空中時傷害增加 15%<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>17054%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 (休芙攻擊)<br>真實傷害 14723%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Wolfgang.png" style="height:60px"/> <strong>&lt;帝王再臨&gt;斬首之刑</strong> 冷卻時間 41 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>案住技能鍵時可以移動位置<br>案住技能鍵時移動速度明顯增加<br>案住技能鍵越久時移動速度越低<br><strong>[貝利亞現身]</strong> 中狀態<br><strong>[貝利亞現身]</strong> 中狀態下 <strong>[必殺技：墮天使降臨]</strong> 使用時 <strong>[貝利亞的化身]</strong> 會取而代之登場<br><font color=#C7C81F>- 技能倍率</font><br>痛擊：42219%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-12"><p><img class="inline-img" src="/img/skill_awaken/badge/Luna.png" style="height:60px"/> <strong>&lt;流星舞躍&gt;釘上冰楔之盾</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>無敵<br>結束後發動 5 等霸體 1 秒<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>11289%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>14776%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Luna.png" style="height:60px"/> <strong>&lt;浩瀚宇宙&gt;星座的黃昏</strong> 冷卻時間 51 秒<br><font color=#090>- 技能功能</font><br>無敵<br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>使用時獲得 <strong>伽瑪射線暴</strong> BUFF<br><font color=#C7C81F>- 技能倍率</font><br>星星爆發：33208%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-13"><p><img class="inline-img" src="/img/skill_awaken/badge/Soma.png" style="height:60px"/> <strong>&lt;獅吼&gt;開路的吶喊</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>BUFF[獅子的鬥志]：爆擊傷害+30%、攻擊力+300 (持續 10 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>18057%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Soma.png" style="height:60px"/> <strong>&lt;不滅之劍&gt;火焰之箭</strong> 冷卻時間 51 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br><font color=#C7C81F>- 技能倍率</font><br>火焰踢：15213%<br>火焰燃燒(*4)：6528%<br>火焰爆炸(*5)：19540%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-14"><p><img class="inline-img" src="/img/skill_awaken/badge/Bai.png" style="height:60px"/> <strong>&lt;寒龍慟哭&gt;凍土潛龍</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>使用時所有必殺技冷卻時間減少 4 秒<br>BUFF[冰龍的氣息 - 覺醒]：空中 &#x2F; 浮空 &#x2F; 背擊爆擊傷害+30% (持續 30 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>6984%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>7183%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Bai.png" style="height:60px"/> <strong>&lt;聲擊的奧義&gt;蒼龍擺尾</strong> 冷卻時間 51 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br><strong>冰劍</strong> 第一下釋放 <strong>[雪花印記]</strong><br><strong>冰劍</strong> 第二下產生 <strong>[雪花印記]</strong><br><strong>納劍完成</strong> 時釋放 <strong>[雪花印記]</strong><br><font color=#C7C81F>- 技能倍率</font><br>冰劍（每下）：1242%<br>風暴斬（每下）：3040%<br>切割聲：4981%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-15"><p><img class="inline-img" src="/img/skill_awaken/badge/Seth.png" style="height:60px"/> <strong>&lt;愛貓神的慈悲&gt;冥刺之地</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>使用時減少野性甦醒冷卻時間 1.5 秒<br>使用時[必殺：冥王神的壞滅]冷卻時間初始化<br>使用時獲得[愛貓神的善變]：[必殺：冥王神的壞滅]施放速度增加<br>BUFF[無情的冥刺]：造成的魔法傷害+10%、爆擊傷害+20%、攻擊力+100 (持續 10 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>2052%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>5126%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊 (B模式)<br>真實傷害 5126%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>5644%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Seth.png" style="height:60px"/> <strong>&lt;太陽神的憤怒&gt;荷魯斯的束縛</strong> 冷卻時間 ? 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br><strong>野性解放</strong> 狀態下增傷 30%<br><font color=#C7C81F>- 技能倍率</font><br>解放：4357%<br>鎖鏈(*3)：13071%<br>咆哮：8699%<br>鎖鏈爆發(*3)：17412%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-16"><p><img class="inline-img" src="/img/skill_awaken/badge/Mirae.png" style="height:60px"/> <strong>&lt;仰天而泣&gt;放飛夜蝶</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>BUFF[夜裡飛舞的蝴蝶]：造成的傷害+15%、爆擊傷害+35% (持續 10 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>真實傷害 6921%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>真實傷害 4512%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>真實傷害 6019%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Mirae.png" style="height:60px"/> <strong>&lt;暗影籠罩&gt;影爪</strong> 冷卻時間 70.38 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>對血量超過 50% 的敵人增傷 10%<br><font color=#C7C81F>- 技能倍率</font><br>影子（每下）(*2)：22044%<br>迎接影子：40949%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-17"><p><img class="inline-img" src="/img/skill_awaken/badge/Chulsoo.png" style="height:60px"/> <strong>&lt;[慈悲]-不逞之徒&gt;骷髏之地</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>摩擦 3 層<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>15648%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Chulsoo.png" style="height:60px"/> <strong>&lt;處刑&gt;槍彈之時(Bullet time)</strong> 冷卻時間 ? 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br><strong>閃光彈</strong> 擊中敵人時，敵人暴擊傷害抵抗降低 20%<br>敵人看向自己時，發動 <strong>아스타 라 비스타</strong> 攻擊<br><font color=#C7C81F>- 技能倍率</font><br>閃光彈：427%<br>盲目射擊(*10)：15480%<br>最後一槍：10615%<br>아스타 라 비스타(不隨等級變化)：3188%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-18"><p><img class="inline-img" src="/img/skill_awaken/badge/Eunha.png" style="height:60px"/> <strong>&lt;暴躁的步伐&gt;區域佔領</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br>使用時所有必殺技冷卻時間減少 2 秒<br>BUFF[不讓開嗎?]：爆擊傷害+30% (持續 10 秒)<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空<br>10454%<br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>6336%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Eunha.png" style="height:60px"/> <strong>&lt;無情之夜&gt;夜幕之外</strong> 冷卻時間 77.7 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>施放時發動 <strong>收帳</strong><br>長按時發動 <strong>燦爛星光</strong> 攻擊<br><font color=#C7C81F>- 技能倍率</font><br>柔和星光：44475%<br>燦爛星光：60042%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-19"><p><img class="inline-img" src="/img/skill_awaken/badge/Lucy.png" style="height:60px"/> <strong>&lt;歡呼的伊斯塔&gt;神聖鼓槌</strong> 冷卻時間 15 秒<br><font color=#090>- 技能功能</font><br>無敵<br>使用時內加爾的目光 1 層<br><font color=#C7C81F>- 技能倍率</font><br><font color=#18F0E8>確定判定</font> - 空中 &#x2F; 浮空 &#x2F; 背擊<br>14652%</p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Lucy.png" style="height:60px"/> <strong>&lt;烏魯克的處刑者&gt;解渴</strong> 冷卻時間 ? 秒<br><font color=#090>- 技能功能</font><br>傷害減少80%<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 背擊<br>對血量超過 60% 的敵人增傷 15%<br>發動技能時恢復 40% HP 與 40% 超能力<br>發動技能時獲得 <strong>BUFF：解渴</strong></p>
+<ul>
+<li>每秒恢復 1% HP</li>
+<li>每秒恢復 1% 超能力</li>
+<li>持續 15 秒</li>
+</ul>
+<p><font color=#C7C81F>- 技能倍率</font><br>神聖解放：31284%</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="新覺醒技能資料-20"><p><img class="inline-img" src="/img/skill_awaken/badge/Aeri.png" style="height:60px"/> <strong>&lt;魔彈-斬波浪&gt;</strong> 冷卻時間 15.3 秒<br><font color=#090>- 技能功能</font><br>無敵<br>水滴攻擊時，疊加水滴<br>猛毒攻擊時，疊加猛毒<br><font color=#C7C81F>- 技能倍率</font><br>31917% (猛毒時為真實傷害、空中 &#x2F; 浮空 &#x2F; 背擊確定判定)</p>
+<p>技能參考：<div class="video-container"><iframe src="https://www.youtube.com/embed/PdiuYl12uKg" frameborder="0" loading="lazy" allowfullscreen></iframe></div></p>
+<hr>
+<p><img class="inline-img" src="/img/skill_awaken/final_move2/Aeri.png" style="height:60px"/> <strong>&lt;魔彈-驚雷&gt;豪雨</strong> 冷卻時間 85.68 秒<br><font color=#090>- 技能功能</font><br>無敵<br><font color=#18F0E8>確定判定</font> - 浮空 &#x2F; 空中</p>
+<ul>
+<li>채찍비 - [맹독]이 명중한 대상에게 중독 발동</li>
+<li>스킬 사용시 맹독 장판 생성</li>
+<li>스킬 레벨에 따라 생성되는 맹독 장판 증가</li>
+</ul>
+<p><font color=#C7C81F>- 技能倍率</font><br>여우비 - [방울]：30651%<br>채찍비 - [맹독]：19931%</p>
+<p>(不熟暫不翻譯)</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>
+<h1 id="屬性核心"><a href="#屬性核心" class="headerlink" title="屬性核心"></a>屬性核心</h1><p>屬性核心就是可以提升一個技能傷害的核心<br><strong><font color=red>注意</font></strong> ：增傷數值實際作用不受<a href="/datasets/new_guide/judge_and_stat/#%E8%83%BD%E5%8A%9B%E4%B8%8A%E9%99%90">數值遞減</a>影響</p>
+<ul>
+<li>例如：如果空中增傷為 99.5% 時，使用空中增傷 10% 的技能核心時，會使空中增傷上升為 109.5% 來進行傷害計算</li>
+</ul>
+<div class="tabs" id="技能屬性核心"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#技能屬性核心-1">一般技能</button></li><li class="tab"><button type="button" data-href="#技能屬性核心-2">必殺技能</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="技能屬性核心-1"><table>
+<thead>
+<tr>
+<th align="left">核心</th>
+<th align="left">能力</th>
+<th align="center">Lv.1</th>
+<th align="center">Lv.2</th>
+<th align="center">Lv.3</th>
+<th align="center">Lv.4</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/WMIttiF.png" style="height:40px"/> 空中&#x2F;背後&#x2F;追蹤傷害</td>
+<td align="left">空中增加傷害<br>背擊增加傷害<br>浮空增加傷害</td>
+<td align="center">5%<br>5%<br>5%</td>
+<td align="center">10%<br>10%<br>10%</td>
+<td align="center">15%<br>15%<br>15%</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/2KkaCHM.png" style="height:40px"/> 空中傷害</td>
+<td align="left"><strong>僅列出Lv. 5和Lv. 6</strong><br>空中增加傷害</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><strong>Lv. 5</strong><br>30%</td>
+<td align="center"><strong>Lv. 6</strong><br>40%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/knV9D9k.png" style="height:40px"/> 背後傷害</td>
+<td align="left"><strong>僅列出Lv. 5和Lv. 6</strong><br>背擊增加傷害</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><strong>Lv. 5</strong><br>30%</td>
+<td align="center"><strong>Lv. 6</strong><br>40%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/S3sN4u0.png" style="height:40px"/> 追蹤傷害</td>
+<td align="left"><strong>僅列出Lv. 5和Lv. 6</strong><br>浮空增加傷害</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><strong>Lv. 5</strong><br>30%</td>
+<td align="center"><strong>Lv. 6</strong><br>40%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/LQQ3LkH.png" style="height:40px"/> 超能釋放&#x2F;傷害</td>
+<td align="left">超能釋放時增加傷害<br>造成的傷害</td>
+<td align="center">6%<br>6%</td>
+<td align="center">9%<br>9%</td>
+<td align="center">12%<br>12%</td>
+<td align="center">15%<br>15%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/A5KnZVc.png" style="height:40px"/> 物理暴擊&#x2F;超能釋放</td>
+<td align="left">物理暴擊傷害<br>超能釋放時增加傷害</td>
+<td align="center">10%<br>9%</td>
+<td align="center">15%<br>12%</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/A5KnZVc.png" style="height:40px"/> 魔法暴擊&#x2F;超能釋放</td>
+<td align="left">魔法暴擊傷害<br>超能釋放時增加傷害</td>
+<td align="center">10%<br>9%</td>
+<td align="center">15%<br>12%</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/A5KnZVc.png" style="height:40px"/> 混合暴擊&#x2F;超能釋放</td>
+<td align="left">物理&#x2F;魔法暴擊傷害<br>超能釋放時增加傷害</td>
+<td align="center">5%<br>9%</td>
+<td align="center">10%<br>12%</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="技能屬性核心-2"><table>
+<thead>
+<tr>
+<th align="left">核心</th>
+<th align="left">能力</th>
+<th align="center">Lv.1</th>
+<th align="center">Lv.2</th>
+<th align="center">Lv.3</th>
+<th align="center">Lv.4</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/WMIttiF.png" style="height:40px"/> [必殺] 空中&#x2F;背後&#x2F;追蹤傷害</td>
+<td align="left">空中增加傷害<br>背擊增加傷害<br>浮空增加傷害</td>
+<td align="center">5%<br>5%<br>5%</td>
+<td align="center">10%<br>10%<br>10%</td>
+<td align="center">15%<br>15%<br>15%</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/2KkaCHM.png" style="height:40px"/> [必殺] 空中傷害</td>
+<td align="left"><strong>僅列出Lv. 5和Lv. 6</strong><br>空中增加傷害</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><strong>Lv. 5</strong><br>30%</td>
+<td align="center"><strong>Lv. 6</strong><br>40%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/knV9D9k.png" style="height:40px"/> [必殺] 背後傷害</td>
+<td align="left"><strong>僅列出Lv. 5和Lv. 6</strong><br>背擊增加傷害</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><strong>Lv. 5</strong><br>30%</td>
+<td align="center"><strong>Lv. 6</strong><br>40%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/S3sN4u0.png" style="height:40px"/> [必殺] 追蹤傷害</td>
+<td align="left"><strong>僅列出Lv. 5和Lv. 6</strong><br>浮空增加傷害</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><strong>Lv. 5</strong><br>30%</td>
+<td align="center"><strong>Lv. 6</strong><br>40%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/LQQ3LkH.png" style="height:40px"/> [必殺] 超能釋放&#x2F;傷害</td>
+<td align="left">超能釋放時增加傷害<br>造成的傷害</td>
+<td align="center">8%<br>11%</td>
+<td align="center">12%<br>14%</td>
+<td align="center">16%<br>17%</td>
+<td align="center">20%<br>20%</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/A5KnZVc.png" style="height:40px"/> [必殺] 物理暴擊&#x2F;超能釋放</td>
+<td align="left">物理暴擊傷害<br>超能釋放時增加傷害</td>
+<td align="center">10%<br>12%</td>
+<td align="center">15%<br>15%</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/A5KnZVc.png" style="height:40px"/> [必殺] 魔法暴擊&#x2F;超能釋放</td>
+<td align="left">魔法暴擊傷害<br>超能釋放時增加傷害</td>
+<td align="center">10%<br>12%</td>
+<td align="center">15%<br>15%</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left"><img class="inline-img" src="https://i.imgur.com/A5KnZVc.png" style="height:40px"/> [必殺] 混合暴擊&#x2F;超能釋放</td>
+<td align="left">物理&#x2F;魔法暴擊傷害<br>超能釋放時增加傷害</td>
+<td align="center">5%<br>12%</td>
+<td align="center">10%<br>15%</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+
+<style>
+  .wave_reward table {
+    width: 50%;
+  }
+</style></article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%B3%87%E6%96%99%E7%B4%80%E9%8C%84/">資料紀錄</a></div><div class="post_share"><div class="social-share" data-image="https://i.imgur.com/WMIttiF.png" data-sites="facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 贊助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://p.ecpay.com.tw/E659612" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://payment.ecpay.com.tw/Upload/QRCode/202209/QRCode_a6c6bfbf-80ca-4c7a-bd19-2ffec8af75c5.png" alt="綠界(點擊圖片)"/></a><div class="post-qr-code-desc">綠界(點擊圖片)</div></li></ul></div></div><div class="ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-dp-4b+kk+7w-zr" data-ad-client="ca-pub-1886641105210989" data-ad-slot="4016025497"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/costumes/urban/"><img class="prev-cover" src="https://imgur.com/tZgybXEh.jpg" onerror="onerror=null;src='/img/emotes/EMT_GOMORI_3.PNG'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">風林火山</div></div></a></div><div class="next-post pull-right"><a href="/costumes/rare/bw/"><img class="next-cover" src="https://i.imgur.com/w5A5xI5h.jpg" onerror="onerror=null;src='/img/emotes/EMT_GOMORI_3.PNG'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">漆黑之翼(Black Wings)</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相關推薦</span></div><div class="relatedPosts-list"><div><a href="/datasets/AprilFools/" title="愚人節立繪記錄"><img class="cover" src="https://i.imgur.com/mDMxLqlh.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-02</div><div class="title">愚人節立繪記錄</div></div></a></div><div><a href="/datasets/CentumCity/" title="14村—賽騰城(Centum City)裝備資訊"><img class="cover" src="https://i.imgur.com/o3UpLTV.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-16</div><div class="title">14村—賽騰城(Centum City)裝備資訊</div></div></a></div><div><a href="/datasets/ClosersSongs/" title="封印者：主題歌曲"><img class="cover" src="https://i.imgur.com/MMTR8Ce.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-10-16</div><div class="title">封印者：主題歌曲</div></div></a></div><div><a href="/datasets/ControlCenter/" title="16村—新首爾分部指揮控制室裝備資訊"><img class="cover" src="https://i.imgur.com/S7FeIdLh.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-26</div><div class="title">16村—新首爾分部指揮控制室裝備資訊</div></div></a></div><div><a href="/datasets/IncheonPort_Chromite/" title="19村—仁川港：鉻鐵號"><img class="cover" src="/img/gear/chromite/Chromite.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-12-04</div><div class="title">19村—仁川港：鉻鐵號</div></div></a></div><div><a href="/datasets/JP_vocal/" title="日文配音相關資料整理"><img class="cover" src="https://i.imgur.com/DtviVMDh.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-21</div><div class="title">日文配音相關資料整理</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content"><b>2026/02/15 最後更新：<br>- <b><font color=red>本站停止更新內容</font>，現有內容仍會保留，謝謝各位這些年以來的支持。</b><br>- <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Connand/Closersinfo-source">網頁原始碼</a>：若了解GitHub的使用的話，可以幫忙發PR一起更新。</b><br>---<br>封面與頭貼繪師：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://twitter.com/Singtsuisy">sy</a><img src="/img/ProfilePic_7th.jpg"><div class="announcement-button"> <a class="button--animated" href="https://www.facebook.com/Closersinfo" rel="external nofollow noreferrer" target="_blank">FB粉絲專頁</a> <a class="button--animated" href="https://discord.gg/ACBYdf5TNd" rel="external nofollow noreferrer" target="_blank">Discord群組</a></div></div></div><div class="card-widget birthday-character" id="birthday-character"><div class="item-headline"><i class="fas fa-birthday-cake"></i><span>今日生日角色</span></div><div class="item-content"><div id="birthday"></div></div></div><div class="card-widget dungeons-today" id="dungeons-today"><div class="item-headline"><i class="fas fa-flag-checkered"></i><span>模擬戰資訊（台版）</span></div><div class="item-content"><div id="mockBattleInfo"><b>第 2 季</b><a href="https://cls.mangot5.com/game/cls/news/detail?contentNo=46589" rel="external nofollow noreferrer" target="_blank">模擬戰</a>(<a href="/datasets/mockbattle_rank/" rel="external nofollow noreferrer" target="_blank">分數表</a>)</div><b>結算日期</b>：<br><div id="mockBattleEnd"></div><div id="mockBattle"></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8A%80%E8%83%BD%E6%A0%B8%E5%BF%83%E4%BD%BF%E7%94%A8%E4%BB%8B%E9%9D%A2"><span class="toc-text">技能核心使用介面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E5%90%88%E6%88%90"><span class="toc-text">核心合成</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%89%8D%E5%8F%96%E5%BE%97%E6%8A%80%E8%83%BD%E6%A0%B8%E5%BF%83%E7%9A%84%E7%AE%A1%E9%81%93"><span class="toc-text">目前取得技能核心的管道</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A6%BA%E9%86%92%E6%8A%80%E8%83%BD%E6%A0%B8%E5%BF%83"><span class="toc-text">覺醒技能核心</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%96%E5%BE%97%E4%BE%86%E6%BA%90"><span class="toc-text">取得來源</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BB%8D%E5%9C%98%E7%A8%8B%E5%BC%8F"><span class="toc-text">軍團程式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%A5%E5%A0%B4%E8%88%87%E7%8E%A9%E6%B3%95"><span class="toc-text">入場與玩法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%88%8A%E7%89%88"><span class="toc-text">舊版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B0%E7%89%88"><span class="toc-text">新版</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%93%E5%B1%A4%E7%8D%8E%E5%8B%B5"><span class="toc-text">樓層獎勵</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BB%8D%E5%9C%98%E7%A8%8B%E5%BC%8F%E5%8F%AF%E6%8F%9B%E7%8D%8E%E5%8B%B5"><span class="toc-text">軍團程式可換獎勵</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%B0%E8%A6%BA%E9%86%92%E6%8A%80%E8%83%BD%E8%B3%87%E6%96%99"><span class="toc-text">新覺醒技能資料</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B1%AC%E6%80%A7%E6%A0%B8%E5%BF%83"><span class="toc-text">屬性核心</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/datasets/spec/abePNA/" title="異形PNA"><img src="/img/PNA/irrPNA_slot.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="異形PNA"/></a><div class="content"><a class="title" href="/datasets/spec/abePNA/" title="異形PNA">異形PNA</a><time datetime="2026-02-15T13:02:34.000Z" title="更新於 2026-02-15 21:02:34">2026-02-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/spec/awakenPNA/" title="覺醒PNA"><img src="/img/PNA/HQ_ICON_PNA_AWAKE_ULTIMATEBLOW_B.PNG" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="覺醒PNA"/></a><div class="content"><a class="title" href="/datasets/spec/awakenPNA/" title="覺醒PNA">覺醒PNA</a><time datetime="2026-02-15T13:02:34.000Z" title="更新於 2026-02-15 21:02:34">2026-02-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/AngelTail/" title="不勻天使之尾"><img src="/img/AngelTail.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="不勻天使之尾"/></a><div class="content"><a class="title" href="/costumes/AngelTail/" title="不勻天使之尾">不勻天使之尾</a><time datetime="2026-02-14T06:47:57.000Z" title="更新於 2026-02-14 14:47:57">2026-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/DearCrescent/" title="珍愛新月"><img src="https://i.imgur.com/ExxqHn9h.jpg" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="珍愛新月"/></a><div class="content"><a class="title" href="/costumes/DearCrescent/" title="珍愛新月">珍愛新月</a><time datetime="2026-02-14T06:47:57.000Z" title="更新於 2026-02-14 14:47:57">2026-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/FrostbellLady/" title="霜鈴淑女"><img src="/img/FrostbellLady.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="霜鈴淑女"/></a><div class="content"><a class="title" href="/costumes/FrostbellLady/" title="霜鈴淑女">霜鈴淑女</a><time datetime="2026-02-14T06:47:57.000Z" title="更新於 2026-02-14 14:47:57">2026-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/IncheonPort_Chromite/" title="19村—仁川港：鉻鐵號"><img src="/img/gear/chromite/Chromite.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="19村—仁川港：鉻鐵號"/></a><div class="content"><a class="title" href="/datasets/IncheonPort_Chromite/" title="19村—仁川港：鉻鐵號">19村—仁川港：鉻鐵號</a><time datetime="2026-01-01T06:55:48.000Z" title="更新於 2026-01-01 14:55:48">2026-01-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/spec/chip_system/" title="晶片系統"><img src="/img/gear/chromite/HQ_1401_CHIP.PNG" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="晶片系統"/></a><div class="content"><a class="title" href="/datasets/spec/chip_system/" title="晶片系統">晶片系統</a><time datetime="2025-12-19T09:59:22.000Z" title="更新於 2025-12-19 17:59:22">2025-12-19</time></div></div></div></div><div class="card-widget ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1886641105210989" data-ad-slot="7354573072" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2026 By 梧夜</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Email: babbab0114@gmail.com</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="淺色和深色模式轉換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到頂部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"></div><script src="/schedule.js"></script><script src="https://cdn.jsdelivr.net/lodash/4.16.4/lodash.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

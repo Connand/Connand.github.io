@@ -1,0 +1,22 @@
+.container {
+  overflow: hidden;
+  zoom: 1;
+  width: 100%;
+  height: flex;
+  /*border: 1px solid red;*/
+}
+.childDiv33 {
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  font-size: 0.9em;
+  /* border: 1px solid greenyellow;*/
+}
+
+.childDiv50 {
+  float: left;
+  width: 50%;
+  height: 100%;
+  font-size: 0.9em;
+  /* border: 1px solid greenyellow;*/
+}

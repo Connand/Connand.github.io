@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RTSS應用：顧及讀取速度並增加畫面流暢度 (補DX11更新說明) | 封印者攻略網</title><meta name="keywords" content="資料紀錄"><meta name="author" content="梧夜"><meta name="copyright" content="梧夜"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="RTSS介紹">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RTSS應用：顧及讀取速度並增加畫面流暢度 (補DX11更新說明)">
+<meta property="og:url" content="https://closersinfo.xyz/datasets/settingWithRTSS/index.html">
+<meta property="og:site_name" content="封印者攻略網">
+<meta property="og:description" content="RTSS介紹">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://i.imgur.com/MMIi9Th.jpg">
+<meta property="article:published_time" content="2022-06-28T04:45:59.000Z">
+<meta property="article:modified_time" content="2023-07-04T03:07:02.000Z">
+<meta property="article:author" content="梧夜">
+<meta property="article:tag" content="資料紀錄">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/MMIi9Th.jpg"><link rel="shortcut icon" href="/img/Blacklambslogo.png"><link rel="canonical" href="https://closersinfo.xyz/datasets/settingWithRTSS/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js" defer></script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'pub-1886641105210989',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-7C9EMS2MBS"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7C9EMS2MBS');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"AAUZ8EE5ZJ","apiKey":"eef669403feb1a7d471939f54880dd42","indexName":"closersinfo","hits":{"per_page":10},"languages":{"input_placeholder":"搜尋文章","hits_empty":"找不到您查詢的內容：${query}","hits_stats":"找到 ${hits} 條結果，用時 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '複製成功',
+    error: '複製錯誤',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'RTSS應用：顧及讀取速度並增加畫面流暢度 (補DX11更新說明)',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-07-04 11:07:02'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/tag-diy.css"><link rel="stylesheet" href="/css/splitted-div.css"><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/Blacklambslogo.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">182</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">標籤</div><div class="length-num">45</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-book-open"></i><span> 遊戲資料</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/characters-introduction"><i class="fa-fw fas fa-book-open"></i><span> 角色介紹</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"><i class="fa-fw fas fa-shield-alt"></i><span> 新手指南</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA"><i class="fa-fw fas fa-dna"></i><span> PNA資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%A3%9D%E5%82%99"><i class="fa-fw fas fa-book-open"></i><span> 主線裝備</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87"><i class="fa-fw fas fa-book-open"></i><span> 能力提升</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%A9%9F%E7%8E%87%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 機率資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96"><i class="fa-fw fas fa-book-open"></i><span> 其他資料</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/folders/1jFK6bpar4oSDy2_DeNQ4wOqFaBHDhoJ7?usp=share_link"><i class="fa-fw fas fa-cloud"></i><span> 雲端圖庫</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-tshirt"></i><span> 時裝</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D"><i class="fa-fw fas fa-tshirt"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E8%BC%9D%E7%85%8C%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 輝煌時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E9%AB%98%E9%9A%8E%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 高階時裝</span></a></li><li><a class="site-page child" href="/tags/%E6%B3%B3%E8%A3%9D/"><i class="fa-fw fas fa-sun"></i><span> 泳裝系列</span></a></li><li><a class="site-page child" href="/costumes/char-special/"><i class="fa-fw fas fa-star-of-david"></i><span> 角色專屬時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E5%96%AE%E7%AB%8B%E7%B9%AA/"><i class="fa-fw fas fa-image"></i><span> 單立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 全角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 部分角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色無立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色無立繪</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/u/0/folders/13jMkHLxNadtJ4f0AHYQlanXvrvkS651_"><i class="fa-fw fas fa-eye"></i><span> 瞳孔資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallery.closersinfo.xyz/"><i class="fa-fw fas fa-database"></i><span> 立繪查詢</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站連結</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 關於與贊助</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></li><li><a class="site-page child" href="/Donate/"><i class="fa-fw fas fa-dollar-sign"></i><span> 贊助</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.imgur.com/MMIi9Th.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">封印者攻略網</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-book-open"></i><span> 遊戲資料</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/characters-introduction"><i class="fa-fw fas fa-book-open"></i><span> 角色介紹</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"><i class="fa-fw fas fa-shield-alt"></i><span> 新手指南</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/PNA"><i class="fa-fw fas fa-dna"></i><span> PNA資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%A3%9D%E5%82%99"><i class="fa-fw fas fa-book-open"></i><span> 主線裝備</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87"><i class="fa-fw fas fa-book-open"></i><span> 能力提升</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E6%A9%9F%E7%8E%87%E8%B3%87%E6%96%99"><i class="fa-fw fas fa-book-open"></i><span> 機率資料</span></a></li><li><a class="site-page child" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96"><i class="fa-fw fas fa-book-open"></i><span> 其他資料</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/folders/1jFK6bpar4oSDy2_DeNQ4wOqFaBHDhoJ7?usp=share_link"><i class="fa-fw fas fa-cloud"></i><span> 雲端圖庫</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-tshirt"></i><span> 時裝</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D"><i class="fa-fw fas fa-tshirt"></i><span> 總覽</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E8%BC%9D%E7%85%8C%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 輝煌時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E9%AB%98%E9%9A%8E%E6%99%82%E8%A3%9D/"><i class="fa-fw fas fa-tshirt"></i><span> 高階時裝</span></a></li><li><a class="site-page child" href="/tags/%E6%B3%B3%E8%A3%9D/"><i class="fa-fw fas fa-sun"></i><span> 泳裝系列</span></a></li><li><a class="site-page child" href="/costumes/char-special/"><i class="fa-fw fas fa-star-of-david"></i><span> 角色專屬時裝</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E5%96%AE%E7%AB%8B%E7%B9%AA/"><i class="fa-fw fas fa-image"></i><span> 單立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 全角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E6%9C%89%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-image"></i><span> 部分角色有立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E5%85%A8%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 全角色無立繪</span></a></li><li><a class="site-page child" href="/categories/%E6%99%82%E8%A3%9D/%E7%84%A1%E7%AB%8B%E7%B9%AA/%E9%99%90%E5%AE%9A%E8%A7%92%E8%89%B2/"><i class="fa-fw fas fa-tshirt"></i><span> 部分角色無立繪</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://drive.google.com/drive/u/0/folders/13jMkHLxNadtJ4f0AHYQlanXvrvkS651_"><i class="fa-fw fas fa-eye"></i><span> 瞳孔資料</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallery.closersinfo.xyz/"><i class="fa-fw fas fa-database"></i><span> 立繪查詢</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站連結</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 關於與贊助</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></li><li><a class="site-page child" href="/Donate/"><i class="fa-fw fas fa-dollar-sign"></i><span> 贊助</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">RTSS應用：顧及讀取速度並增加畫面流暢度 (補DX11更新說明)</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2022-06-28T04:45:59.000Z" title="發表於 2022-06-28 12:45:59">2022-06-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2023-07-04T03:07:02.000Z" title="更新於 2023-07-04 11:07:02">2023-07-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/">遊戲資料</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%81%8A%E6%88%B2%E8%B3%87%E6%96%99/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="RTSS應用：顧及讀取速度並增加畫面流暢度 (補DX11更新說明)"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="DX11更新說明"><a href="#DX11更新說明" class="headerlink" title="DX11更新說明"></a>DX11更新說明</h1><div class="note warning simple"><p>Closers在更新DX11以後，對於垂直同步會影響跑圖讀取的部分 “似乎” 已經被改善了。<br>因為個人目前實測不論開啟或關閉遊戲內的垂直同步，讀取速度似乎沒有影響太多。<br>因此可以自行開關遊戲內的垂直同步測試看看，若畫面流暢且讀取速度正常，則可以不用此文所提供之方法。</p>
+</div>
+
+<h1 id="緣由"><a href="#緣由" class="headerlink" title="緣由"></a>緣由</h1><p>因為最近剛換電腦了，從i5-4460換到了i7-12700，升級很有感， <strong><font color=#ff0000>畫面非常流暢</font></strong><br>說是有感，但是發現到一件事：<br>在跟社團的跟朋友打本時，在副本讀取畫面時，<br>我都是第一個開始讀取，但常常是跟其他人同時讀取完畢，甚至是最後一個跑完還卡相對久的時間<br>(在副本讀取時會大約卡在52%好幾秒才會繼續動)<br>以及在跑圖時，會一直卡100%好幾秒(接近10秒左右)<br>就想說明明把遊戲放在M.2 SSD裡面怎麼會有這種情況</p>
+<h2 id="目前配備簡述"><a href="#目前配備簡述" class="headerlink" title="目前配備簡述"></a>目前配備簡述</h2><p>僅提供參考，仍以自身實際使用情況為主<br>CPU: i7-12700<br>顯卡: GTX 1050Ti<br>硬碟: SNVS&#x2F;500G</p>
+<hr>
+<h1 id="改善讀取速度"><a href="#改善讀取速度" class="headerlink" title="改善讀取速度"></a>改善讀取速度</h1><p><strong><font color=#f00 size=4>在進一步用這些方法之前，建議將遊戲存放至SSD槽中，確保基本的讀取速度提升</font></strong></p>
+<p>因此我就上網查了一些資料，看到<a target="_blank" rel="noopener external nofollow noreferrer" href="https://closers.nexon.com/Community/Tip/View?n4ArticleSN=19398">韓版這篇</a>文章，說明怎麼提高讀取速度<br>簡譯如下：</p>
+<ol>
+<li>(<strong>可選</strong>) 改用全螢幕</li>
+<li><strong>關閉垂直同步</strong>(如圖)<br><img src="https://i.imgur.com/qJHfRFu.png"></li>
+<li>(<strong>可選</strong>) 打開工作管理員 &#x3D;&gt; 點”詳細資料” &#x3D;&gt; 找到”CW.EXE” &#x3D;&gt; 點選”設定親和性” &#x3D;&gt; 把”CPU 0”點掉 &#x3D;&gt; “確定”完成<br>註：每次開遊戲需要重複3的操作<br><img src="https://i.imgur.com/U20MJ8G.png"></li>
+</ol>
+<hr>
+<p>然後通常我不用第1點，所以試了第2點，結果很明顯的速度變得快很多，所以我就沒有用第3點了<br><strong><font color=#ff0000>關閉”垂直同步”後，之前跑圖會卡100%好幾秒的情況消失了</font></strong><br><img src="https://i.imgur.com/GZ7yNDD.png"></p>
+<p>但是這時候另一個問題出現了，如同上面文章所提到的<br><strong><font color=#ff0000>關閉遊戲裡的”垂直同步”後，會讓遊戲不時產生卡頓感(掉幀)</font></strong></p>
+<hr>
+<h1 id="拿回流暢的畫面"><a href="#拿回流暢的畫面" class="headerlink" title="拿回流暢的畫面"></a>拿回流暢的畫面</h1><p>跟朋友討論說有可能是螢幕Hz數不夠導致，但因為一些原因所以沒辦法馬上換螢幕<br>所以我試了一些方法，例如從顯卡驅動來開啟垂直同步等等，依舊會有掉幀情形<br>因此我就再繼續找資料，找如何<strong>同時顧及讀取速度+又有流暢的畫面</strong><br>於是我就找到的<a target="_blank" rel="noopener external nofollow noreferrer" href="http://closers.nexon.com/Community/Tip/View?n4ArticleSN=19371">這篇</a><br>裡面提到2個軟體：</p>
+<ol>
+<li>Nvidia Profile Inspector</li>
+<li><strong>Rivatuner Statistics Server</strong></li>
+</ol>
+<p>其中第1個似乎因為很久沒有更新，所以沒辦法使用(可能是驅動程式版本太新無法抓到)<br>第2個就是這篇文主角，簡稱RTSS</p>
+<hr>
+<h1 id="使用RTSS"><a href="#使用RTSS" class="headerlink" title="使用RTSS"></a>使用RTSS</h1><p><strong><font color=#ff0000>注意：若你的螢幕支援Nvidia G-Sync 或 AMD FreeSync的功能，則使用這兩個功能即可。RTSS方法是給比較普通的螢幕使用</font></strong><br>針對Closers的使用教學是參考<a target="_blank" rel="noopener external nofollow noreferrer" href="https://gall.dcinside.com/board/view/?id=closers&no=8945992">這篇</a><br><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html">RTSS載點</a><br><img src="https://i.imgur.com/bXjKUL0.png"><br>拉到最下面會看到”Download Locations”<br>上面教學使用7.2.3版，個人是載了7.3.2版，似乎沒什麼問題，因此版本隨意選</p>
+<p><strong><font color=#ff0000>設定前先把所有相關垂直同步設定關閉(遊戲裡的、NVIDIA 控制面板等)</font></strong><br>下載後解壓縮，點裡面的”RTSSSetupOOO.exe”(OOO是版本)安裝完打開<br><strong><font color=#ff0000>可能會在右下角工作列(要再去點開)</font></strong></p>
+<h2 id="設定方式"><a href="#設定方式" class="headerlink" title="設定方式"></a>設定方式</h2><ol>
+<li>如圖：左下角”Add”點開(1)，找到遊戲資料夾，點選”CW.EXE”(2)<br><img src="https://i.imgur.com/5ySxFjG.jpg"></li>
+<li><strong>注意左邊”CW.EXE”有沒有選到</strong><br>將紅方框內數值進行設定， <strong><font color=#ff0000>可不用關閉遊戲，設定會實時生效</font></strong><br><img src="https://i.imgur.com/MMIi9Th.jpg"></li>
+</ol>
+<p>然後就可以點右上角(一條線的標誌)最小化(不能關閉RTSS)<br>雖然RTSS會在後台運行，但是RAM的佔用量非常小可以忽略</p>
+<p><strong><font color=#ff0000 size=5>然後大功告成，現在應該會有很快的讀取速度跟很流暢的畫面了</font></strong></p>
+<h2 id="附錄：RTSS是什麼碗糕"><a href="#附錄：RTSS是什麼碗糕" class="headerlink" title="附錄：RTSS是什麼碗糕"></a>附錄：RTSS是什麼碗糕</h2><p>有關RTSS的原理與介紹，可以參考巴哈<a target="_blank" rel="noopener external nofollow noreferrer" href="https://forum.gamer.com.tw/Co.php?bsn=36072&sn=32315">這篇</a>文章介紹(使用APEX來說明與設定)<br>有關上面設定的Scanline sync(掃描線同步)說明(節錄巴哈文章)：<br><code>掃描線同步利用純軟體的解決方案，一樣可減少畫面撕裂，同時比一般垂直同步產生更低的輸入延遲。由於人眼感知運動的方式，它還有助於消除不屬於上文所說的可變刷新率 (VRR) 面板上，產生的不穩定卡頓</code><br>就是一個利用軟體達到Nvidia G-Sync 或 AMD FreeSync的效果(可以處理卡頓跟畫面撕裂)</p>
+<p>掃描線同步使用時機：<br><code>當顯示卡負載或使用率( 原文為GPU load )較低時，掃描線同步效果最佳。</code><br>由於Closers並非3A大作等需要相對強大的硬體(顯卡)，所以對於大部分顯卡都是符合此條件(GTX等級以上基本上應該都行)</p>
+<p>更進一步從影片說明時機(雖影片主要是指G-Sync 或 FreeSync但原理應該類似)：<br><code>螢幕Hz數與顯卡輸出FPS數很接近時是理想的使用時機</code><br>由於Closers本身限制，FPS只到60，與大多普通螢幕的60 Hz相同，因此是很理想的使用時機</p>
+<p>其餘更詳細的說明就請看上面巴哈的文章<br>至於有關垂直同步、G-Sync 或 FreeSync等技術名詞說明，則參考<a target="_blank" rel="noopener external nofollow noreferrer" href="https://forum.gamer.com.tw/Co.php?bsn=60030&sn=2083384">另外這篇</a>、或者<a target="_blank" rel="noopener external nofollow noreferrer" href="https://youtu.be/dnsPyyaNCWc">影片說明</a></p>
+<h2 id="有關此文章或其他的問題，可以透過Discord或FB來提出"><a href="#有關此文章或其他的問題，可以透過Discord或FB來提出" class="headerlink" title="有關此文章或其他的問題，可以透過Discord或FB來提出"></a><strong><font color=#ff0000 size=4>有關此文章或其他的問題，可以透過Discord或FB來提出</font></strong></h2></article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%B3%87%E6%96%99%E7%B4%80%E9%8C%84/">資料紀錄</a></div><div class="post_share"><div class="social-share" data-image="https://i.imgur.com/MMIi9Th.jpg" data-sites="facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 贊助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://p.ecpay.com.tw/E659612" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://payment.ecpay.com.tw/Upload/QRCode/202209/QRCode_a6c6bfbf-80ca-4c7a-bd19-2ffec8af75c5.png" alt="綠界(點擊圖片)"/></a><div class="post-qr-code-desc">綠界(點擊圖片)</div></li></ul></div></div><div class="ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-dp-4b+kk+7w-zr" data-ad-client="ca-pub-1886641105210989" data-ad-slot="4016025497"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/datasets/mockbattle_rank/"><img class="prev-cover" src="/img/mock_rank/HQ_CLOSER_RANK_08.PNG" onerror="onerror=null;src='/img/emotes/EMT_GOMORI_3.PNG'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">模擬戰分數等級</div></div></a></div><div class="next-post pull-right"><a href="/costumes/domestic/"><img class="next-cover" src="https://i.imgur.com/sq6qyr8h.jpg" onerror="onerror=null;src='/img/emotes/EMT_GOMORI_3.PNG'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">執事&amp;女僕</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相關推薦</span></div><div class="relatedPosts-list"><div><a href="/datasets/AprilFools/" title="愚人節立繪記錄"><img class="cover" src="https://i.imgur.com/mDMxLqlh.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-02</div><div class="title">愚人節立繪記錄</div></div></a></div><div><a href="/datasets/CentumCity/" title="14村—賽騰城(Centum City)裝備資訊"><img class="cover" src="https://i.imgur.com/o3UpLTV.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-16</div><div class="title">14村—賽騰城(Centum City)裝備資訊</div></div></a></div><div><a href="/datasets/ClosersSongs/" title="封印者：主題歌曲"><img class="cover" src="https://i.imgur.com/MMTR8Ce.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-10-16</div><div class="title">封印者：主題歌曲</div></div></a></div><div><a href="/datasets/ControlCenter/" title="16村—新首爾分部指揮控制室裝備資訊"><img class="cover" src="https://i.imgur.com/S7FeIdLh.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-26</div><div class="title">16村—新首爾分部指揮控制室裝備資訊</div></div></a></div><div><a href="/datasets/IncheonPort_Chromite/" title="19村—仁川港：鉻鐵號"><img class="cover" src="/img/gear/chromite/Chromite.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-12-04</div><div class="title">19村—仁川港：鉻鐵號</div></div></a></div><div><a href="/datasets/JP_vocal/" title="日文配音相關資料整理"><img class="cover" src="https://i.imgur.com/DtviVMDh.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-21</div><div class="title">日文配音相關資料整理</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content"><b>2026/02/15 最後更新：<br>- <b><font color=red>本站停止更新內容</font>，現有內容仍會保留，謝謝各位這些年以來的支持。</b><br>- <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Connand/Closersinfo-source">網頁原始碼</a>：若了解GitHub的使用的話，可以幫忙發PR一起更新。</b><br>---<br>封面與頭貼繪師：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://twitter.com/Singtsuisy">sy</a><img src="/img/ProfilePic_7th.jpg"><div class="announcement-button"> <a class="button--animated" href="https://www.facebook.com/Closersinfo" rel="external nofollow noreferrer" target="_blank">FB粉絲專頁</a> <a class="button--animated" href="https://discord.gg/ACBYdf5TNd" rel="external nofollow noreferrer" target="_blank">Discord群組</a></div></div></div><div class="card-widget birthday-character" id="birthday-character"><div class="item-headline"><i class="fas fa-birthday-cake"></i><span>今日生日角色</span></div><div class="item-content"><div id="birthday"></div></div></div><div class="card-widget dungeons-today" id="dungeons-today"><div class="item-headline"><i class="fas fa-flag-checkered"></i><span>模擬戰資訊（台版）</span></div><div class="item-content"><div id="mockBattleInfo"><b>第 2 季</b><a href="https://cls.mangot5.com/game/cls/news/detail?contentNo=46589" rel="external nofollow noreferrer" target="_blank">模擬戰</a>(<a href="/datasets/mockbattle_rank/" rel="external nofollow noreferrer" target="_blank">分數表</a>)</div><b>結算日期</b>：<br><div id="mockBattleEnd"></div><div id="mockBattle"></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#DX11%E6%9B%B4%E6%96%B0%E8%AA%AA%E6%98%8E"><span class="toc-text">DX11更新說明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B7%A3%E7%94%B1"><span class="toc-text">緣由</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%89%8D%E9%85%8D%E5%82%99%E7%B0%A1%E8%BF%B0"><span class="toc-text">目前配備簡述</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%94%B9%E5%96%84%E8%AE%80%E5%8F%96%E9%80%9F%E5%BA%A6"><span class="toc-text">改善讀取速度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8B%BF%E5%9B%9E%E6%B5%81%E6%9A%A2%E7%9A%84%E7%95%AB%E9%9D%A2"><span class="toc-text">拿回流暢的畫面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8RTSS"><span class="toc-text">使用RTSS</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A8%AD%E5%AE%9A%E6%96%B9%E5%BC%8F"><span class="toc-text">設定方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%99%84%E9%8C%84%EF%BC%9ARTSS%E6%98%AF%E4%BB%80%E9%BA%BC%E7%A2%97%E7%B3%95"><span class="toc-text">附錄：RTSS是什麼碗糕</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E9%97%9C%E6%AD%A4%E6%96%87%E7%AB%A0%E6%88%96%E5%85%B6%E4%BB%96%E7%9A%84%E5%95%8F%E9%A1%8C%EF%BC%8C%E5%8F%AF%E4%BB%A5%E9%80%8F%E9%81%8EDiscord%E6%88%96FB%E4%BE%86%E6%8F%90%E5%87%BA"><span class="toc-text">有關此文章或其他的問題，可以透過Discord或FB來提出</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/datasets/spec/abePNA/" title="異形PNA"><img src="/img/PNA/irrPNA_slot.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="異形PNA"/></a><div class="content"><a class="title" href="/datasets/spec/abePNA/" title="異形PNA">異形PNA</a><time datetime="2026-02-15T13:02:34.000Z" title="更新於 2026-02-15 21:02:34">2026-02-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/spec/awakenPNA/" title="覺醒PNA"><img src="/img/PNA/HQ_ICON_PNA_AWAKE_ULTIMATEBLOW_B.PNG" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="覺醒PNA"/></a><div class="content"><a class="title" href="/datasets/spec/awakenPNA/" title="覺醒PNA">覺醒PNA</a><time datetime="2026-02-15T13:02:34.000Z" title="更新於 2026-02-15 21:02:34">2026-02-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/AngelTail/" title="不勻天使之尾"><img src="/img/AngelTail.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="不勻天使之尾"/></a><div class="content"><a class="title" href="/costumes/AngelTail/" title="不勻天使之尾">不勻天使之尾</a><time datetime="2026-02-14T06:47:57.000Z" title="更新於 2026-02-14 14:47:57">2026-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/DearCrescent/" title="珍愛新月"><img src="https://i.imgur.com/ExxqHn9h.jpg" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="珍愛新月"/></a><div class="content"><a class="title" href="/costumes/DearCrescent/" title="珍愛新月">珍愛新月</a><time datetime="2026-02-14T06:47:57.000Z" title="更新於 2026-02-14 14:47:57">2026-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/costumes/FrostbellLady/" title="霜鈴淑女"><img src="/img/FrostbellLady.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="霜鈴淑女"/></a><div class="content"><a class="title" href="/costumes/FrostbellLady/" title="霜鈴淑女">霜鈴淑女</a><time datetime="2026-02-14T06:47:57.000Z" title="更新於 2026-02-14 14:47:57">2026-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/IncheonPort_Chromite/" title="19村—仁川港：鉻鐵號"><img src="/img/gear/chromite/Chromite.png" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="19村—仁川港：鉻鐵號"/></a><div class="content"><a class="title" href="/datasets/IncheonPort_Chromite/" title="19村—仁川港：鉻鐵號">19村—仁川港：鉻鐵號</a><time datetime="2026-01-01T06:55:48.000Z" title="更新於 2026-01-01 14:55:48">2026-01-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/datasets/spec/chip_system/" title="晶片系統"><img src="/img/gear/chromite/HQ_1401_CHIP.PNG" onerror="this.onerror=null;this.src='/img/emotes/EMT_GOMORI_3.PNG'" alt="晶片系統"/></a><div class="content"><a class="title" href="/datasets/spec/chip_system/" title="晶片系統">晶片系統</a><time datetime="2025-12-19T09:59:22.000Z" title="更新於 2025-12-19 17:59:22">2025-12-19</time></div></div></div></div><div class="card-widget ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1886641105210989" data-ad-slot="7354573072" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2026 By 梧夜</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Email: babbab0114@gmail.com</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="淺色和深色模式轉換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到頂部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"></div><script src="/schedule.js"></script><script src="https://cdn.jsdelivr.net/lodash/4.16.4/lodash.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
